@@ -1,2 +1,2 @@
-let url = "http://server.dawoodproud.com";
+let url = "https://server.dawoodproud.com";
 export default url;
