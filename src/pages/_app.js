@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Dawood Proud</title>
+        <title>Dawood Proud | Stand Out from Crowd</title>
       </Head>
 
       <ToastContainer />
