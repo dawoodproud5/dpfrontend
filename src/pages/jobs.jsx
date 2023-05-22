@@ -122,23 +122,23 @@ function careers() {
         },
         {
             "Job": "Voice-Over Artist (Male, Urdu) ",
-            "Location": "June 2023 • Remote"
+            "Location": "July 2023 • Remote"
 
         },
         {
             "Job": "Video Editors",
-            "Location": "June 2023 • In-Office • G-11/2, Sachal Sarmast Road, Islamabad"
+            "Location": "July 2023 • In-Office • G-11/2, Sachal Sarmast Road, Islamabad"
 
         },
 
         {
             "Job": "Content Writers",
-            "Location": "July 2023 • Remote"
+            "Location": "August 2023 • Remote"
 
         },
         {
             "Job": "Video Content Creator",
-            "Location": "July 2023 • In-Office / Remote • G-11, Islamabad"
+            "Location": "August 2023 • In-Office / Remote • G-11, Islamabad"
 
         },
 
