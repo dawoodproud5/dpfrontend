@@ -8,7 +8,7 @@ function BlogLogin() {
         <div>
             <div className="flex flex-col items-center justify-center min-h-screen ">
 
-                <div className='w-[80px] h-[80px] relative mx-auto'>
+                <div className='w-[80px] h-[82px] relative mx-auto'>
                     <Image src={"/Images/logo.png"} alt="logo" fill className='object-contain' />
 
                 </div>
