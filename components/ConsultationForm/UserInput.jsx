@@ -73,7 +73,7 @@ function MultiStepForm() {
                 ;
         })
 
-        console.log(formData)
+        // console.log(formData)
     };
 
     const handleFormChange = (event) => {
@@ -105,13 +105,13 @@ function MultiStepForm() {
                 </div>
                 <form >
                     {step === 1 && (
-                        <FormName formData={formData} onChange={handleFormChange} nextStep={nextStep} />
+                        <FormName formData={formData} onChange={handleFormChange} nextStep={nextStep}  setFormData={setFormData}/>
                     )}
                     {step === 2 && (
                         <FormServices formData={formData} setFormData={setFormData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} />
                     )}
                     {step === 3 && (
-                        <FormBrand formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                        <FormBrand formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} setFormData={setFormData}>
                         </FormBrand>
                     )}
                     {step === 4 && (

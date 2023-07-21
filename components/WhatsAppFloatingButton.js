@@ -13,7 +13,7 @@ function WhatsAppFloatingButton() {
           phoneNumber={"+923270075555"}
           accountName={"Dawood Proud"}
           statusMessage={"Typically replies instantly during work hours."}
-          chatMessage={`Hello there! \nHope you're fine and enjoying good Health ✨🙌. \nHow may I help you?`}
+          chatMessage={`Hi There 👋 \nHow can we help you?`}
           avatar={"/Images/logob.jpg"}
           allowEsc
           allowClickAway={true}

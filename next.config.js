@@ -7,6 +7,7 @@ const nextConfig = {
   experiments: {
     reactRefresh: true,
   },
+
 };
 
 module.exports = nextConfig;

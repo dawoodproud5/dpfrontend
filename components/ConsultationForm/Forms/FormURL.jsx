@@ -1,11 +1,22 @@
-import React from 'react'
+import { useState } from 'react'
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi"
-function FormURL({ formData, onChange, nextStep, prevStep }) {
+
+
+
+function FormURL({ formData, onChange, nextStep, prevStep, setFormData }) {
+
+    const [URL, setURL] = useState("");
+
+    const handleChange = (event) => {
+        const { value } = event.target;
+        setURL(value);
+        setFormData({ ...formData, ["URL"]: value });
+    };
     return (
 
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-1'>
-            <div className='flex flex-col justify-between items-center gap-8 '>
-                <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
+            <div className='flex flex-col justify-between items-center gap-12 '>
+                {/* <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1> */}
                 <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center text-[#139dff]'>Fantastic! Let&#39;s Uncover Your YouTube Channel...</h2>
                 <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Please Write your YouTube Channel Handle or Paste Channel URL here. <br /> <span className='font-normal'>(Optional for New YouTubers)</span></h2>
 
@@ -27,17 +38,17 @@ function FormURL({ formData, onChange, nextStep, prevStep }) {
 
                 }}
                 name="URL"
-                value={formData.URL}
-                onChange={onChange}
+                value={URL}
+                onChange={handleChange}
                 required
 
             />
 
             <div className='flex justify-center items-center gap-4'>
-                <button type="button" onClick={prevStep} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
+                <button type="button" onClick={prevStep}  className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
                     <FiArrowLeft size={30} />
                 </button>
-                <button type="button" onClick={nextStep} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
+                <button type="button" onClick={nextStep} disabled={!URL} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
                     <FiArrowRight size={30} />
                 </button>
 

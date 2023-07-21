@@ -19,13 +19,13 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"DP\’s YouTube Services have been a game-changer for Watch Mojo! Thanks to your  "}
-          <span className="text-[#0ECF91]">algorithm expertise,</span>
+          <span className=" text-[#4baeff]">algorithm expertise,</span>
           {" because of which our channel has seen explosive growth.\""}
         </p>
       ),
       "url": "/Images/YouTubers/WatchMojo.jpg",
       "link": "Ashkan Karbasfrooshan",
-      "navtoportfolio": "/portfolio#Emil_Anton"
+      "navtoportfolio": "/portfolio##Ashkan_Karbasfrooshan"
     },
     {
       "name": "TechAlta",
@@ -34,13 +34,13 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Your services have been a Godsend for TechAltar! With your help, my channel now has a "}
-          <span className="text-[#0ECF91]">clear direction </span>
-          and purpose, resulting in <span className="text-[#0ECF91]">increased engagement</span>   {"and growth.\""}
+          <span className=" text-[#4baeff]">clear direction </span>
+          and purpose, resulting in <span className=" text-[#4baeff]">increased engagement</span>   {"and growth.\""}
         </p>
       ),
       "url": "/Images/YouTubers/techAltar.jpg",
       "link": "Marton Barcza",
-      "navtoportfolio": "/portfolio#Ashkan_Karbasfrooshan"
+      "navtoportfolio": "/portfolio"
     },
 
     {
@@ -50,13 +50,13 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content strategy</span>
+          <span className=" text-[#4baeff]">content strategy</span>
           {"  that helped me grow my brand. I highly recommend your services to anyone looking to improve their YouTube presence.\""}
         </p>
       ),
       "url": "/Images/YouTubers/alux.svg",
       "link": "Emil C. Anton",
-      "navtoportfolio": "/portfolio#Zach_Hsieh"
+      "navtoportfolio": "/portfolio#Emil_Anton"
     },
 
     {
@@ -66,13 +66,13 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Their strategic "}
-          <span className="text-[#0ECF91]">Video Marketing Plan  </span>
+          <span className=" text-[#4baeff]">Video Marketing Plan  </span>
           {"led to increased sales and brand recognition, by engaging car buyers and sellers across the UK.\""}
         </p>
       ),
       "url": "/Images/YouTubers/autotrader.jpg",
       "link": "Ian Plummer",
-      "navtoportfolio": "/portfolio#Linus_Sebastian"
+      "navtoportfolio": "/portfolio#Ian_Plummer"
     },
     {
       "name": "EmmyMade",
@@ -81,8 +81,8 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Thanks to my amazing "}
-          <span className="text-[#0ECF91]">YouTube Keywords Researcher, </span>
-          I have discovered the  <span className="text-[#0ECF91]">perfect keywords  </span> to help my <span className="text-[#0ECF91]">food</span> {"content thrive in the USA.\""}
+          <span className=" text-[#4baeff]">YouTube Keywords Researcher, </span>
+          I have discovered the  <span className=" text-[#4baeff]">perfect keywords  </span> to help my <span className=" text-[#4baeff]">food</span> {"content thrive in the USA.\""}
         </p>
       ),
       "url": "/Images/YouTubers/Emmymade.jpg",
@@ -96,13 +96,13 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Thanks to my incredible  "}
-          <span className="text-[#0ECF91]">Content Ideas Guru </span>
+          <span className=" text-[#4baeff]">Content Ideas Guru </span>
           {" my art channel is now bursting with fresh and exciting video ideas that my subscribers love!. \""}
         </p>
       ),
       "url": "/Images/YouTubers/zhcnight.jpg",
       "link": "Zach Hsieh",
-      "navtoportfolio": "/portfolio#Ian_Plummer"
+      "navtoportfolio": "/portfolio#Zach_Hsieh"
     },
     {
       "name": "Linus Tech Tips",
@@ -111,22 +111,21 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Most of my videos are now dominating Google &  "}
-          <span className="text-[#0ECF91]">YouTube Search Results  </span> only because of thanks to my beloved  <span className="text-[#0ECF91]">YouTube SEO  </span>
+          <span className=" text-[#4baeff]">YouTube Search Results  </span> only because of thanks to my beloved  <span className=" text-[#4baeff]">YouTube SEO  </span>
           {" YouTube SEO\""}
         </p>
       ),
       "url": "/Images/YouTubers/LinusTechTipsFace.webp",
       "link": "Linus Sebastian",
-      "navtoportfolio": "/portfolio#Marton_Barcza"
+      "navtoportfolio": "/portfolio#Linus_Sebastian"
     }
   ]
 
   return (
-    <div className="w-full min-h-screen ">
+    <div className="w-full pb-36 pt-16">
       <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative w-full ">
-        <h2 className='text-white font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
-        <div className='w-full h-full flex justify-center items-center relative'>
-
+        <h2 className='text-[#001b47] font-Inter text-shadow-light text-[18px] tracking-[.18em] font-bold mt-3 md:pt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
+        <div className='w-full h-full flex justify-center items-center  max-w-[1800px]'>
           <Swiper
             speed={2000}
             autoplay={{
@@ -138,32 +137,32 @@ const YtSlider = () => {
             // loop={true}
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
-            spaceBetween={40}
+            spaceBetween={25}
 
             breakpoints={{
               480: {
 
                 slidesPerView: 1,
-                spaceBetween: 40,
+                spaceBetween: 20,
 
               },
               680: {
 
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 25,
 
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 25,
               },
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 30,
+                spaceBetween: 25,
               },
               1200: {
                 slidesPerView: 3.5,
-                spaceBetween: 40,
+                spaceBetween: 25,
               },
 
             }}

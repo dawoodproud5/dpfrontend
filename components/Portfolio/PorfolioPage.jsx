@@ -22,21 +22,22 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div class="whitespace-pre-line">
-                            <TwitterTweet
-                                name="Alux.com"
-                                username="@aluxcom"
-                                text={`Hey Twitter fam! So many of you have been asking about our YouTube content strategy and services,
+                    <div class="whitespace-pre-line">
+
+                        <TwitterTweet
+                            name="Alux.com"
+                            username="@aluxcom"
+                            text={`Hey Twitter fam! So many of you have been asking about our YouTube content strategy and services,
 
                                         we're happy to reveal that we've been using  @DawoodProud Services for a while now!
                                         They're doing an amazing job, and we're grateful for their expertise.`}
-                                img="/Images/Portfolio/TwitterDP/alux.jpg"
-                                date="9:18 PM · Dec 15, 2022"
-                                likes="373"
-                                read="23" />
-                        </div>
-                    </a>
+                            img="/Images/Portfolio/TwitterDP/alux.jpg"
+                            date="9:18 PM · Dec 15, 2022"
+                            likes="373"
+                            read="23" />
+
+                    </div>
+
 
                 </div>
             ),
@@ -63,21 +64,23 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div className='whitespace-pre-line'>
-                            <TwitterTweet
-                                name="Ashkan Karbasfrooshan"
-                                username="@ashkan"
-                                text={`DP${"'"}s YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. 
+                    <div className='whitespace-pre-line'>
+
+
+                        <TwitterTweet
+                            name="Ashkan Karbasfrooshan"
+                            username="@ashkan"
+                            text={`DP${"'"}s YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. 
                                 
                                 Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!`}
-                                date="9:18 PM · Jan 18, 2023"
-                                img="/Images/Portfolio/TwitterDP/ashkan.jpg"
-                                likes="157"
-                                read="34"
-                            />
-                        </div>
-                    </a>
+                            date="9:18 PM · Jan 18, 2023"
+                            img="/Images/Portfolio/TwitterDP/ashkan.jpg"
+                            likes="157"
+                            read="34"
+                        />
+
+                    </div>
+
                 </div>
             ),
             "para": (
@@ -106,17 +109,17 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
-                        <InstagramPost
-                            name="zhccrafts"
-                            para={`Thanks to my incredible Content Ideas Guru Dawood, because of him, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! With ${'@Dawoodproud'} and his team${"'"}s help, I${"'"}ve been able to take my content to the next level and provide my viewers with high-quality, engaging videos that keep them coming back for more. Their ability to understand my niche and provide me with unique and creative ideas has been invaluable. I${"'"}m so grateful for their expertise and support!`}
-                            likes="9,781"
-                            img="/Images/Portfolio/InstaDP/zhc.jpg"
-                            post="/Images/Portfolio/Instapost/post1.jpg"
-                            followers="3.4M"
-                            comments="149"
-                        />
-                    </a>
+
+                    <InstagramPost
+                        name="zhccrafts"
+                        para={`Thanks to my incredible Content Ideas Guru Dawood, because of him, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! With ${'@Dawoodproud'} and his team${"'"}s help, I${"'"}ve been able to take my content to the next level and provide my viewers with high-quality, engaging videos that keep them coming back for more. Their ability to understand my niche and provide me with unique and creative ideas has been invaluable. I${"'"}m so grateful for their expertise and support!`}
+                        likes="9,781"
+                        img="/Images/Portfolio/InstaDP/zhc.jpg"
+                        post="/Images/Portfolio/Instapost/post1.jpg"
+                        followers="3.4M"
+                        comments="149"
+                    />
+
                 </div>
             ),
             "para": (
@@ -143,21 +146,23 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div className='whitespace-pre-line'>
-                            <TwitterTweet
-                                name="Linus Tech Tips"
-                                username="@LinusTech"
-                                text={`As a YouTube content creator, I knew that optimizing my videos for search engines was crucial for success. 
+
+                    <div className='whitespace-pre-line'>
+
+                        <TwitterTweet
+                            name="Linus Tech Tips"
+                            username="@LinusTech"
+                            text={`As a YouTube content creator, I knew that optimizing my videos for search engines was crucial for success. 
                             
                             Most of my videos are now dominating Google & YouTube Search Results only because of Dawood. Thanks to my beloved YouTube SEO specialists! `}
-                                date="9:18 PM · Jan 18, 2023"
-                                img="/Images/Portfolio/TwitterDP/linustech.jpg"
-                                likes="21.47K"
-                                read="234"
-                            />
-                        </div>
-                    </a>
+                            date="9:18 PM · Jan 18, 2023"
+                            img="/Images/Portfolio/TwitterDP/linustech.jpg"
+                            likes="21.47K"
+                            read="234"
+                        />
+
+                    </div>
+
                 </div>
             ),
             "para": (
@@ -184,21 +189,21 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div className='whitespace-pre-line'>
-                            <TwitterTweet
-                                name="emmymade"
-                                username="@emmymadeinjapan"
-                                text={`As a content creator, I know how important it is to use the right keywords to make your videos stand out on YouTube.
+
+                    <div className='whitespace-pre-line'>
+                        <TwitterTweet
+                            name="emmymade"
+                            username="@emmymadeinjapan"
+                            text={`As a content creator, I know how important it is to use the right keywords to make your videos stand out on YouTube.
 
                                 Luckily, I found @DawoodProud, Thanks to my amazing YouTube Keywords Researcher, Dawood helped me discover Perfect Keywords that helped my food content thrive in the USA.`}
 
-                                img="/Images/Portfolio/TwitterDP/emmymade.jpg"
-                                likes="1,431"
-                                read="17"
-                            />
-                        </div>
-                    </a>
+                            img="/Images/Portfolio/TwitterDP/emmymade.jpg"
+                            likes="1,431"
+                            read="17"
+                        />
+                    </div>
+
                 </div>
             ),
             "para": (
@@ -226,18 +231,18 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
-                        <InstagramPost
-                            name="autotraderuk"
-                            para={`We chose @dawoodproud to help us increase sales and reach more customers. Their strategic video marketing engaged car buyers and sellers across the UK, leading to increased brand recognition and sales. Dawood${"'"}s team is professional, creative, and responsive, taking the time to understand our business and target audience. We highly recommend Dawood for their innovative and strategic approach that drives results.`}
-                            img="/Images/Portfolio/InstaDP/autotrader.jpg"
-                            likes="147"
-                            post="/Images/Portfolio/Instapost/post2.jpg"
-                            followers="124K"
-                            comments="151"
 
-                        />
-                    </a>
+                    <InstagramPost
+                        name="autotraderuk"
+                        para={`We chose @dawoodproud to help us increase sales and reach more customers. Their strategic video marketing engaged car buyers and sellers across the UK, leading to increased brand recognition and sales. Dawood${"'"}s team is professional, creative, and responsive, taking the time to understand our business and target audience. We highly recommend Dawood for their innovative and strategic approach that drives results.`}
+                        img="/Images/Portfolio/InstaDP/autotrader.jpg"
+                        likes="147"
+                        post="/Images/Portfolio/Instapost/post2.jpg"
+                        followers="124K"
+                        comments="151"
+
+                    />
+
                 </div>
             ),
             "para": (

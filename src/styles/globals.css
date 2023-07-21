@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+  font-family: Factor A;
+  src: url(../fonts/TRIALFactorA-Bold-BF6476bc2fe0b09.otf);
+}
+@font-face {
+  font-family: Factor A;
+  src: url(../fonts/TRIALFactorA-Bold-BF6476bc2fe0b09.otf);
+}
+
+@font-face {
+  font-family: Times New Roman;
+  src: url(../fonts/times\ new\ roman.ttf);
+}
+
+@font-face {
+  font-family: Times;
+  src: url(../fonts/times.ttf);
+}
+/* @font-face {
+  font-family: Times New Roman;
+  src: url(../fonts/times\ new\ roman\ bold.ttf);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap"); */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"); */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
@@ -112,7 +137,7 @@
 
 @font-face {
   font-family: "HelveticaNeueRoman";
-  src: url("/src/pages/Fonts/HelveticaNeueRoman.ttf") format("truetype");
+  src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -131,7 +156,7 @@ html {
 }
 
 body {
-  background: #121521 !important;
+  background: white !important;
   scroll-behavior: smooth;
   transition-duration: 1000ms;
   transition-delay: 1000ms;
@@ -142,9 +167,6 @@ body {
   box-shadow: border-box;
   /* background: #030713 !important; */
 }
-
-
-
 
 .styles-module_whatsappButton__tVits {
   background-color: #25d366 !important;
@@ -346,7 +368,8 @@ background: radial-gradient(to top, #1A2948, #030713); */
 /* portfolio page */
 
 .active {
-  background-color: #0203060f;
+  background: #154bdf0f;
+  color: #0070f3;
 }
 
 /* call to action  */
@@ -389,8 +412,9 @@ background: radial-gradient(to top, #1A2948, #030713); */
 /* drop dowwn csss */
 .span_dropdown {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  transition: text-shadow 0.5s ease;
+  transition: text-shadow 0.5s ease !important;
   transition-delay: 1.9s !important;
+  margin-top: -2px;
 }
 
 .span_dropdown:hover {
@@ -400,8 +424,10 @@ background: radial-gradient(to top, #1A2948, #030713); */
 }
 
 .bg-gray-gradient {
-  background-image: linear-gradient(163.03deg, #414660 10.07%, #292e48 57.49%);
+  background-image: linear-gradient(163.03deg, #24316e 10.07%, #001b47 57.49%);
 }
+
+/* background-image: linear-gradient(163.03deg, #414660 10.07%, #292e48 57.49%); */
 
 .bg_servicecard_main {
   background: radial-gradient(
@@ -430,7 +456,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  padding: 2rem !important;
+  padding: 1rem !important;
 }
 
 .swiper-slide {
@@ -479,7 +505,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
   height: auto;
   padding-left: 4px;
   /* display: block;   */
-  background: #0000004d;
+  background: #9e93934d;
 }
 
 /* Track */
@@ -489,7 +515,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-  background: #949494;
+  background: #5cb5f9;
 }
 
 .MuiRating-icon {
@@ -526,14 +552,18 @@ background: radial-gradient(to top, #1A2948, #030713); */
   margin-bottom: 150px;
 }
 
-.bg_testimonials {
+/* .bg_testimonials {
   background-image: linear-gradient(
     344.11deg,
     rgba(128, 49, 200, 0.5) 14.71%,
     rgba(255, 67, 151, 0.5) 96.55%
   );
-}
+} */
 
+.bg_testimonials {
+  background: #001b47;
+}
+/* linear-gradient(344.11deg, #001b47 14.71%, #001b47 96.55%); */
 /* .border-gradient-to-br {
   border-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) 1;
 } */
@@ -578,7 +608,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
 
 .tab-content {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -682,7 +712,6 @@ button[type="remove"]:hover {
   min-height: 50px !important;
   padding: 8px !important;
   min-width: 300px !important;
-  
 }
 
 .my-selectHearabout .ant-select-selection-item {
@@ -830,4 +859,172 @@ button[type="remove"]:hover {
 
 .glowbg3t:hover {
   box-shadow: 0 0 5px 5px #1d9bf01a;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* services pages customs css for the individual pages */
+
+/* #yotube_keyword_research_process {
+  color: #0066b3;
+} */
+
+.button {
+  background: #0077cc;
+  background: linear-gradient(90deg, #0077cc, rgb(88, 58, 138));
+}
+/* hero bg */
+.hero_bg {
+  background-image: linear-gradient(
+    313deg,
+    #00d989 37.67%,
+    #00bce1 49.91%,
+    #a139ff 64.37%,
+    #ff5558 73.27%,
+    #ff7500 81.62%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+/* .superchargeYT_bg {
+  overflow: hidden;
+  position: relative;
+} */
+/* 
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .superchargeYT_bg::before {
+    background: #f2f8ff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 200%;
+    position: absolute;
+    top: calc(-100% - 484px);
+    width: 3500px;
+    z-index: 0;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .superchargeYT_bg::before {
+    background: #f2f8ff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 200%;
+    position: absolute;
+    top: calc(-100% - 484px);
+    width: 2500px;
+    z-index: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .superchargeYT_bg::before {
+    background: #f2f8ff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 200%;
+    position: absolute;
+    top: calc(-100% - 484px);
+    width: 2000px;
+    z-index: 0;
+  }
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .superchargeYT_bg::before {
+    background: #f2f8ff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 200%;
+    position: absolute;
+    top: calc(-100% - 484px);
+    width: 1600px;
+    z-index: 0;
+  }
+}
+.superchargeYT_bg::before {
+  background: #f2f8ff;
+}
+.superchargeYT_bg {
+  background-image: url("/public/Images/download.svg");
+  background-position: 58% 43%;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-color: #294dff;
+  color: #f2f8ff;
+} */
+
+/* .curved-section {
+  background-color: white;
+  padding: 50px;
+  position: relative;
+  border-radius: 50% 50% 0 0 / 20% 20% 0 0;
+  text-align: center;
+} */
+
+.hsds-row--oval-bottom {
+  overflow: hidden;
+  padding-bottom: 128px;
+  position: relative;
+}
+@media (min-width: 900px) and (max-width: 1400px) {
+  .hsds-row--oval-bottom::after {
+    background: #ffffff;
+    border-radius: 60%;
+    top: -100px;
+    content: "";
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: -15%;
+    width: 130%;
+  }
+}
+@media (min-width: 300px) {
+  .hsds-row--oval-bottom::after {
+    background: #ffffff;
+    border-radius: 60%;
+    top: -100px;
+    content: "";
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: -45%;
+    width: 190%;
+  }
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 30px solid white;
+  border-right: 30px solid transparent;
 }

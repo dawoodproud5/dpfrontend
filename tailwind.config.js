@@ -24,6 +24,12 @@ module.exports = {
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
       Inter1: ["Inter1", "sans-serif"],
+      Barlow: ["Barlow", "sans-serif"],
+      Factor_A: ["Factor A", "sans-serif"],
+      Halvic: ["HelveticaNeueRoman", "sans-serif"],
+      Times_New_Roman: ["Times New Roman", " san-serif"],
+      Times: ["Times New Roman", " san-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
       // InterThin: ["InterThin", "sans-serif"],
       // OpenSans: ["Open Sans", "sans-serif"],
       // Inter_2: ["Inter Tight", "sans-serif"],
@@ -32,7 +38,7 @@ module.exports = {
       Noto: ["Noto Sans", "sans-serif"],
       Bebas: ["Bebas Neue", "cursive"],
       Syne: ["Syne", "sans-serif"],
-      Halvic: ["HelveticaNeueRoman", "sans-serif"],
+
       IBM_plex: ["IBM Plex Sans", "san-serif"],
     },
     colors: {

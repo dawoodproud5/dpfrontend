@@ -3,7 +3,7 @@ import React from 'react'
 function FAQs() {
     return (
 
-        <div className='w-full max-w-[1172px]'>
+        <div className='w-full max-w-[1172px] font-Factor_A'>
             <div class=" mx-auto px-5 bg-white min-h-sceen">
                 <div class="flex flex-col items-center">
                     <h2 class="font-bold text-5xl mt-5 ">
@@ -71,9 +71,9 @@ function FAQs() {
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We&#39;ve experimented with different office setups over the years and have found that running our organization from homes is the most effective for our team. Initially, we rented an office space in Silver City Plaza G-11 Markaz, but we noticed that our employees&#39; productivity began to decrease. After trying out both options, we realized that working from home like environment provided numerous benefits for our team.
+                                We&#39;ve experimented with different office setups over the years and have found that running our organization from homes is the most effective for our team. Initially, we rented an office space in <strong>Silver City Plaza G-11 Markaz</strong>, but we noticed that our employees&#39; productivity began to decrease. After trying out both options, we realized that <strong>working from home like environment</strong> provided numerous benefits for our team.
 
-                                <br />Remember that, to rent a single office space in Markaz and stuff all our team members in one place, is much more cost effective for us, but Instead, we choose to spend heavily on multiple houses in G-11 to provide our employees with a home-like environment. Each house is equipped with very very spacious working areas, attached bathrooms, a dedicated cook, and a clean working environment in close proximity to each other. Primary House is dedicated to Video Editors only, while Secondary and Tertiary House have dedicated workspaces for Content Writers, Graphic Designers, Administrative Coordinators and more. We believe that such an environment leads to happier and more productive employees, as they can work without any distractions and focus solely on their tasks. (thanks to Naval Ravikant for his Insights on entrepreneurial ecosystem). Moreover, having like-minded individuals specializing in particular niche, working in a common place helps build intellectual capital and enhances teamwork.
+                                <br />Remember that, to rent a single office space in Markaz and stuff all our team members in one place, is much more cost effective for us, but Instead, we choose to spend heavily on multiple houses in G-11 to provide our employees with a <strong>home-like environment</strong>. Each house is equipped with very very spacious working areas, attached bathrooms, a dedicated cook, and a clean working environment in close proximity to each other. Primary House is dedicated to Video Editors only, while Secondary and Tertiary House have dedicated workspaces for Content Writers, Graphic Designers, Administrative Coordinators and more. We believe that such an environment leads to happier and more productive employees, as they can work without any distractions and focus solely on their tasks. (thanks to Naval Ravikant for his Insights on entrepreneurial ecosystem). Moreover, having like-minded individuals specializing in particular niche, working in a common place helps build intellectual capital and enhances teamwork.
                             </p>
                         </details>
                     </div>

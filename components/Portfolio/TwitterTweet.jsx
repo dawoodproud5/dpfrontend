@@ -22,7 +22,7 @@ function TwitterTweet({ name, username, img, text, date, likes, read }) {
                             <div className='flex justify-center items-center gap-2'>
                                 <p className='text-[gray]/90 text-sm'>{username} </p>
                                 <p className='font-bold text-lg mb-1 text-[gray]'>. </p>
-                                <p><span className='text-[#1d9bf0] text-sm font-bold hover:underline'><a href="https://www.instagram.com/accounts/login/">Follow</a> </span></p>
+                                <p><span className='text-[#1d9bf0] text-sm font-bold hover:underline'>Follow </span></p>
                             </div>
 
                         </div>

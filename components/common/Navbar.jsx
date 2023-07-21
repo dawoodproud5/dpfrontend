@@ -25,42 +25,57 @@ const navItems = [
   },
   {
     id: 2,
-    Name: "Services",
-    Route: "#Services",
+    Name: "All Services",
+    Route: "/services",
     hasDropdown: true,
     selected: true,
 
     dropdownItems: [
       {
         name: "YouTube Consultation",
-        path: "/consultation"
+        path: "/services/youtube-consultation"
       },
       {
         name: "YouTube SEO",
-        path: "/consultation"
+        path: "/services/youtube-seo"
+      },
+      {
+        name: "YouTube Content Creation",
+        path: "/services/youtube-video-production"
       },
       {
         name: "YouTube Keyword Research",
-        path: "/consultation"
+        path: "/services/youtube-keyword-research"
+      },
+      {
+        name: "YouTube Niche",
+        path: "/services/youtube-niche-with-low-competition"
       },
       {
         name: "YouTube Automation",
-        path: "/consultation"
+        path: "/services/youtube-automation"
       },
       {
-        name: "YouTube Monetization",
-        path: "/consultation"
+        name: "YouTube Channel Optimization",
+        path: "/services/youtube-channel-optimization"
       },
-      {
-        name: "YouTube Promotion / Ads",
-        path: "/consultation"
-      },
+      // {
+      //   name: "YouTube Promotion",
+      //   path: "/services/youtube-promotion"
+      // },
+      // {
+      //   name: "YouTube Advertising",
+      //   path: "/services/youtube-promotion"
+      // },
+      // {
+      //   name: "YouTube Monetization",
+      //   path: "/services/youtube-monetization"
+      // },
 
-
-      {
-        name: "YouTube Channel Managment",
-        path: "/consultation"
-      },
+      // {
+      //   name: "YouTube Channel Managment",
+      //   path: "/services/youtube-channel-managment"
+      // },
 
 
     ]
@@ -104,25 +119,25 @@ function Navbar({ bg_color, position }) {
   };
 
   return (
-    <div className={`w-full min-h-[4.1rem]  font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
-      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around  ">
+    <div className={`w-full min-h-[3rem]  font-Inter font-semibold  fixed top-0 z-50 ${bg_color} bg-white`}>
+      <div className="mx-w-[1200px] mx-auto min-h-full flex items-center text-[balck] justify-between lg:justify-around  ">
         {/* Logo here... */}
         <div className="relative w-12 h-14 ">
           <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
         </div>
 
         {/* nav items here......... */}
-        <div className="lg:flex  hidden justify-center items-center text-sm gap-6 relative z-50 mt-2">
+        <div className="lg:flex  hidden justify-center items-center text-[16px] gap-6 relative z-50 mt-2 ">
           {navItems.map((item, index) => (
             <Link href={item.Route} key={index}>
-              <div className="relative  main list-none flex justify-center items-start">
+              <div className="relative  main list-none flex justify-center items-center">
                 <div key={index} className="cursor-pointer">{item.Name}</div>
                 {(index === 1) && <IoMdArrowDropdown size={20} className="block" />}
                 {item.hasDropdown && (
 
-                  <div className="hidden absolute top-[24px] left-[0px] w-[233px] shadow-2xl rounded-md border-1 border-white/10 border-solid span_dropdown bg-gray-gradient item ">
+                  <div className="hidden absolute top-[24px] left-[0px] w-[233px] shadow-2xl rounded-md border-1 border-white/10 border-solid span_dropdown bg-gray-gradient item py-3">
                     {item.dropdownItems.map((service, index) => (
-                      <Link href={`${service.path}`} className="list-none px-3  py-1 text-[14px] leading-5 inline-block text-white/90 font-normal glow_text  " key={index}>{service.name}</Link>
+                      <Link href={`${service.path}`} className="list-none px-4  py-1 text-[14px] leading-5 inline-block text-white/90 font-normal glow_text  " key={index}>{service.name}</Link>
                     ))}
                   </div>
                 )}
@@ -130,7 +145,7 @@ function Navbar({ bg_color, position }) {
             </Link>
           ))}
           <Link href={"/consultation"} className="text-xs">
-            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
+            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#0077cc] hover:bg-[#3b82f6] '>
               <div className="flex justify-center items-center">
                 <p>Get Free Consultation</p>
               </div>
@@ -142,10 +157,21 @@ function Navbar({ bg_color, position }) {
 
         {/* Hamburgur */}
         <div className="lg:hidden ">
-          <Hamburger
-            toggled={isOpen} toggle={setIsOpen} color='#ffffff' size={25}>
+          <div className="flex justify-center items-center">
+            <div>
+              <Link href={"/consultation"}  >
+                <button className='text-sm font-medium  px-[12px] py-[10px]  rounded-xl text-white bg-[rgb(19,157,255)]'>
+                  <p className="flex justify-center items-center gap-4">
+                    Get Free Consultation
+                  </p>
+                </button>
+              </Link>
+            </div>
+            <Hamburger
+              toggled={isOpen} toggle={setIsOpen} color='#001b47' size={28}>
+            </Hamburger>
+          </div>
 
-          </Hamburger>
 
           <Drawer
             open={isOpen}
@@ -153,9 +179,9 @@ function Navbar({ bg_color, position }) {
             direction="left"
             className="drawer"
           >
-            <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start ">
+            <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start bg-[#001b47]">
               {/* =========>top bar */}
-              <div className="w-full flex justify-between items-center px-2 h-[70px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
+              <div className="w-full flex justify-between items-center px-2 h-[100px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
                 <Link href={'/'} alt='home'>
                   <div className="relative w-10 h-10 ">
                     <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />
@@ -167,7 +193,7 @@ function Navbar({ bg_color, position }) {
 
               <div className="mx-auto">
                 <Link href={"/consultation"}  >
-                  <button className='text-base font-medium  px-3 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
+                  <button className='text-base font-medium  px-8 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
                     <p className="flex justify-center items-center gap-4">
                       Get Free Consultation
                     </p>
@@ -177,20 +203,19 @@ function Navbar({ bg_color, position }) {
 
               {navItems.map((item, index) => (
                 <Link href={item.Route} key={index} >
-                  <div className="w-full flex flex-col justify-center items-center px-4 py-1 ml-2">
+                  <div className="w-full flex flex-col justify-center items-center px-4 py-1 ">
                     <div className="w-full  flex justify-start items-start ">
                       <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
                         <p>{item.Name}</p>
-                        {(index === 1) && <IoMdArrowDropdown size={30} />}
+                        {(index === 1) && <IoMdArrowDropdown size={30} className="ml-6"/>}
                       </div>
                     </div>
                     {/* =====> sub items */}
                     <div className="w-full py-0">
                       {item.hasDropdown &&
-
-                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 space-y-1 mt-6 text-base font-normal ">
+                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 mt-6 text-base font-normal ">
                           {item.dropdownItems.map((item, index) => {
-                            return <Link key={index} href="#">{item.name}</Link>
+                            return <Link key={index} href={`${item.path}`}>{item.name}</Link>
                           })}
                         </div>
                       }

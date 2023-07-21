@@ -4,7 +4,8 @@ function FormStep7({ formData, onChange, nextStep, prevStep, submit }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-2'>
             <div className='flex flex-col justify-between items-center gap-8  '>
-                <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
+                <div></div>
+                {/* <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1> */}
                 <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium '>Last Question... What is your email address?</h2>
             </div>
             <label htmlFor="name"></label>
@@ -29,9 +30,9 @@ function FormStep7({ formData, onChange, nextStep, prevStep, submit }) {
                 required
 
             />
-            <div className='text-[12px] font-normal text-center  '>
-                Your contact details will NOT be used for unsolicited calls and messages. <br />
-                Your Contact Information will be handled securely because Your privacy matters! <br />
+            <div className='text-[12px] font-normal text-center max-w-sm '>
+                Your contact details will NOT be used for unsolicited calls and messages. 
+                Your Contact Information will be handled securely because Your privacy matters!
                 We will respectfully reach out to schedule a consultation at a time that suits you best.
             </div>
             <div className='flex justify-center items-center gap-4'>

@@ -7,65 +7,89 @@ import { BsFillStarFill } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc"
 import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
-
+import SignUp from "./SignUp"
+import { SessionProvider, useSession } from "next-auth/react";
 function Hero() {
-    return (
+    
+return (
 
-        <div className="w-full min-h-screen flex flex-col items-center justify-center font-Inter ">
-            <Navbar bg_color={"bg-gradient-to-b from-[#121521] to-[#121521]/0"} position={'fixed'} />
+        <div className="w-full min-h-screen flex flex-col items-center justify-center font-Inter mx-auto bg-[#001b47]">
+            <div className="w-full bg-white ">
+                <Navbar bg_color={"bg-white"} position={"absolute"} />
+            </div>
+            {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
-
-            <div className="h-full font-Inter  max-w-[1172px] relative z-[1] w-full  ">
-                {/* -mt-[10vh] sm:-mt-[15vh] lg:mt-3 */}
-                <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center space-y-4 mx-auto ">
+            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1220px] min-h-[75vh] w-full mt-20 md:mt-16  xl:mt-6">
+                <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                     {/* hero section text */}
-                    <div className=" flex flex-col justify-center items-center space-y-1 mx-auto  p-0 sm:p-4 md:p-6 gap-4">
-                        <div className="flex flex-col -space-y-3">
-                            <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[40px] xl:text-[48px] abdal_color px-8 xs:px-0">Dawood Proud</h1>
-                            <h1 className=" font-extrabold text-[28px] sm:text-[36px] md:text-[40px] xl:text-[40px] abdal_color1 px-8 xs:px-0 "> Stand Out from Crowd</h1>
+                    <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto  p-0 sm:p-4 md:p-6 gap-4">
+                        <div className="flex flex-col justify-center xl:justify-start items-center xl:items-start  xl:-space-y-3 ">
+                            <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[50px] lg:text-[60px] ">Dawood Proud</h1>
+                            <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#01b88d]"> Stand Out from Crowd</h1>
                         </div>
-                        <div className="flex flex-col gap-1 max-w-[1172px] font-medium md:font-semibold px-3 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">
-                            <p> Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights.</p>
-                            <p>All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> {"\"They have Winnig Content Strategy.\""}</strong> </span> </p>
+                        <div className="text-center xl:text-left font-medium md:font-semibold px-4 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
+                            <p> Ultimate Destination for all <strong> YouTube Growth Services</strong> to take your channel to new heights.</p>
+                            {/* <p>All the successful YouTubers have one thing in common  <strong> {"\"They have Winnig Content Strategy.\""}</strong>  </p> */}
                         </div>
                         <div>
-                            <Link href={"/consultation"} className="text-base">
-                                <button className='flex justify-center items-center px-2 py-3  rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
-                                    Let&#39;s Start a New Project
+                            <Link href={"/consultation"} className="text-sm ">
+                                <button className='flex justify-center items-center px-4 py-2  rounded-2xl  font-bold text-white button mt-3 '>
+                                    Let&#39;s Start
                                     <BsArrowRightShort size={25} />
                                 </button>
                             </Link>
                         </div>
                     </div>
 
-                    {/* hero image here */}
-                    <div className="flex flex-col sm:flex-row gap-4 sm:gap-1 justify-between items-center max-w-[768px] w-full px-4 mx-auto">
-                        <div className="flex flex-col gap-2 ">
-                            <div className='w-[200px] md:w-[250px] h-[100px] md:h-[130px] relative '>
-                                <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >5.0 reviews on Trustpilot</p>
-                                <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >Based on 684 Reviews</p>
-                            </div>
+                   
+                </div>
 
+                {/* hero sign up starts here */}
+                <div className=" xl:col-start-8 xl:col-span-7 mx-auto w-full flex flex-col items-center">
+                   
+                        <SignUp />
+                    
+                </div>
+            </div>
+
+            {/* last section of the herosection */}
+            <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
+                <div className="relative h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
+                    <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
+                </div>
+                <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4 xl:col-start-8 xl:col-span-7">
+                    <div className="flex flex-col justify-start items-center">
+                        <p className="text-white font-bold font-Inter tracking-widest text-[18px] sm:text-[20px]">
+                            PUSH YOUR CHANNEL TO THE
+                        </p>
+                        <div className="relative h-[100px] w-[250px] xl:-ml-24">
+                            <Image src="/Images/herosection/heroImage2.svg" fill alt="heroImage2" className="object-contain" />
                         </div>
-                        <div className='gap-2 border-1 border-solid border-[black] flex flex-col justify-center items-center p-3 shadow-sm  rounded-sm'>
-                            <div className="flex justify-center items-center gap-3">
-                                <FcGoogle className="text-[40px]"></FcGoogle>
-                                <p className="text-[white] text-[28px] sm:text-[24px] md:text-[30px] font-bold">Google Reviews</p>
-                            </div>
-                            <div className='flex  justify-center items-center text-[#eeee0d]'>
-                                <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
-                                <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
-                                <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
-                                <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
-                                <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
-                            </div>
-                            <div className=" text-[18px] sm:text-[16px]  md:text-[20px]">
-                                <p> <strong>4.9</strong> Stars | Based on <strong>521</strong> Reviews</p>
-                            </div>
+                    </div>
+                    <div className="flex justify-center items-center max-w-sm mx-auto">
+                        <p className="text-left font-Inter  xl:text-[18px] text-white">
+                            Discover how to <span className="hero_bg ">grow your YouTube <br /> channel</span>  with our professional coaches.
+                        </p>
+                    </div>
+                    <div className="flex flex-col xs:flex-row justify-center items-center gap-4 xs:gap-8">
+                        <div>
+                            <Link href={"/consultation"} className="text-xs xl:text-xm">
+                                <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    Get Free Consultation
+                                </button>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href={"/services"} className="text-xs xl:text-xm ">
+                                <button className=' px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    <div className="flex justify-center items-center gap-2">
+                                        <p>See all Services</p>
+                                        <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
+                                    </div>
+
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

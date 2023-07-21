@@ -64,23 +64,24 @@ function SiderBar() {
 
     return (
 
-        <div className="max-w-xl mx-auto text-blue">
-            <aside className="w-full" aria-label="Sidebar">
-                <div className="px-3 py-4 overflow-y-auto rounded-2xl shadow-sm mt-8 text-left">
-                    <h2 className='p-2 text-base font-bold ml-4'>Content</h2>
-                    <ul className="space-y-2 py-4 rounded-md">
-                        {liItem.map((item, index) =>
-                            <li key={index} className="w-full ">
-                                <a href={item.id}
-                                    className="p-1 text-sm font-medium text-gray-900 rounded-lg  ">
-                                    <span className="ml-3 hover:text-[#1d9bf0]">{item.name}</span>
+        <div className="max-w-xl mx-auto text-[black] font-Inter border-r-2 border-[gray]/30 ">
+        <aside className="w-full " aria-label="Sidebar">
+            <div className="px-0 py-4 overflow-y-auto  mt-8 text-left grid grid-cols-12">
+                <div className='col-start-4 col-span-8'>
+                    <h2 className="text-lg  font-normal self-start">Content</h2>
+                    <ul className="space-y-2 py-4 ">
+                        {liItem.map((item, index) => (
+                            <li key={index} className="w-full flex">
+                                <a href={`${item.id}`} className="font-normal text-[14px]">
+                                    <span className="hover:text-[#0070f3] ">{item.name}</span>
                                 </a>
                             </li>
-                        )}
+                        ))}
                     </ul>
                 </div>
-            </aside>
-        </div>
+            </div>
+        </aside>
+    </div>
 
     )
 }

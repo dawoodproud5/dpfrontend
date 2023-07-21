@@ -89,7 +89,7 @@ const Antselect = ({ setFormData, value, formData }) => {
     const filteredOptions = OPTIONS.filter((o) => !selectedItems.includes(o));
     const handleChange = (selectedValues) => {
         setSelectedItems(selectedValues);
-        setFormData({ ...formData, ['services']: selectedValues });
+        setFormData({ ...formData, ['subs']: selectedValues });
     };
 
 
