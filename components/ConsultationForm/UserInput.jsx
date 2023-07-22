@@ -73,7 +73,7 @@ function MultiStepForm() {
                 ;
         })
 
-        // console.log(formData)
+        console.log(formData)
     };
 
     const handleFormChange = (event) => {

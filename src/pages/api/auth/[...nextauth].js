@@ -1,5 +1,9 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import url from "../../../../components/Assets/Api";
+import axios from "axios";
+import { toast } from "react-toastify";
+import { setCookie } from "next-cookies";
 
 export default NextAuth({
   providers: [
@@ -9,10 +13,20 @@ export default NextAuth({
     }),
   ],
   callbacks: {
-    async signIn({ user, account, profile, email, credentials }) {
-      if (account.provider === "google")
-        console.log({ user, account, profile, email, credentials });
-      return true;
+    async session(session, user) {
+      const name = session.session.user.name;
+      const email = session.session.user.email;
+
+      const obj = { email: email, name: name };
+      await axios
+        .post(`${url}/api/register/with/google`, obj)
+        .then((res) => {
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+
+      return session;
     },
   },
   // secret: process.env.JWT_SECRET,
