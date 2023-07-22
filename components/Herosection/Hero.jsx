@@ -20,7 +20,7 @@ return (
             {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
-            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1220px] md:min-h-[75vh] w-full mt-20 md:mt-16  xl:mt-6">
+            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1220px] h-full md:min-h-[75vh] w-full pt-20 md:mt-16  xl:mt-6">
                 <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                     {/* hero section text */}
                     <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto  p-0 sm:p-4 md:p-6 gap-4">
