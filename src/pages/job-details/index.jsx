@@ -191,7 +191,7 @@ function JobDetails() {
                             <Link href={"/apply"}>
                                 <button
                                     type="button"
-                                    class="text-2xl font-medium border border-indigo-500 bg-[black] text-white rounded-md px-14 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                                    className="text-2xl font-medium border border-indigo-500 bg-[black] text-white rounded-md px-14 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline">
                                     Apply
                                 </button>
                             </Link>

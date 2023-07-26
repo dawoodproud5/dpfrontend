@@ -3,7 +3,7 @@ import React from 'react'
 function HiringRecruttie() {
     return (
         <div>
-            <div data-cy="brand-wrapper-section " class="sc-1ktojtq-0 jwieGb mx-auto mt-20"><a href="https://recruitee.com" target="_blank" rel="noreferrer noopenner" aria-label="Recruitee" class="sc-1ktojtq-1 eovEqQ">
+            <div data-cy="brand-wrapper-section " className="sc-1ktojtq-0 jwieGb mx-auto mt-20"><a href="https://recruitee.com" target="_blank" rel="noreferrer noopenner" aria-label="Recruitee" className="sc-1ktojtq-1 eovEqQ">
                 <svg width="241" height="24" viewBox="0 0 241 24" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M121.51 9.08403C121.485 9.08403 121.46 9.08469 121.435 9.08493C119.658 

@@ -21,7 +21,7 @@ function Client_Review({ name, img, role, review, subs, views }) {
                         </div>
                         <div className=" w-full flex flex-col justify-center items-center">
                             <div className="flex items-end  w-full">
-                                <svg viewBox="0 0 18 18" className="mr-2 self-center w-[1.3rem] css-0"><g fill-rule="nonzero" fill="none">
+                                <svg viewBox="0 0 18 18" className="mr-2 self-center w-[1.3rem] css-0"><g fillOpacity="nonzero" fill="none">
                                     <path d="M2.33 9.5a1.33 1.33 0 010-2.67 8.83 8.83 0 018.84 8.84 1.33 1.33 0 01-2.67 0c0-3.4-2.76-6.17-6.17-6.17z" stroke="#7C8898" fill="#7C8898"></path>
                                     <path d="M2.33 3.67a1.33 1.33 0 010-2.67C10.43 1 17 7.57 17 15.67a1.33 1.33 0 01-2.67 0 12 12 0 00-12-12z" stroke="#7C8898" fill="#7C8898"></path>
                                     <path d="M3.17 17a2.17 2.17 0 110-4.33 2.17 2.17 0 010 4.33z" fill="#549DD2"></path></g></svg>
@@ -29,8 +29,8 @@ function Client_Review({ name, img, role, review, subs, views }) {
                             </div>
                             <div className="flex items-end w-full">
 
-                                <svg viewBox="0 0 20 16" className="mr-2 self-center w-[1.3rem] css-0"><g transform="translate(2 2)" fill="none" fill-rule="evenodd">
-                                    <path d="M0 6s2.9-6 8-6 8 6 8 6-2.9 6-8 6-8-6-8-6z" stroke="#7C8898" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <svg viewBox="0 0 20 16" className="mr-2 self-center w-[1.3rem] css-0"><g transform="translate(2 2)" fill="none" fillOpacity="evenodd">
+                                    <path d="M0 6s2.9-6 8-6 8 6 8 6-2.9 6-8 6-8-6-8-6z" stroke="#7C8898" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"></path>
                                     <ellipse fill="#549DD2" cx="8" cy="6" rx="2.15" ry="2.21"></ellipse></g></svg>
 
                                 <div className='flex items-end w-full'>

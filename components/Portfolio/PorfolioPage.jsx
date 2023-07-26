@@ -22,7 +22,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <div class="whitespace-pre-line">
+                    <div className="whitespace-pre-line">
 
                         <TwitterTweet
                             name="Alux.com"

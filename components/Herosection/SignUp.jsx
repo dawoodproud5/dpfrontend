@@ -81,8 +81,8 @@ const SignupForm = () => {
           <button className="px-12 rounded-full border-2 border-[#3b82f6]/90 bg-blue/10 hover:bg-white hover:text-blue text-white font-normal cursor-pointer mb-4 w-full h-[50px]">
             <div className="flex justify-center items-center gap-3 h-[50px]">
               <div className="w-6 h-6">
-                <svg viewBox="0 0 18 18" class="css-0">
-                  <g fill="#000" fill-rule="evenodd">
+                <svg viewBox="0 0 18 18" className="css-0">
+                  <g fill="#000" fillRule="evenodd">
                     <path
                       d="M9 3.48c1.69 0 2.83.73 3.48 1.34l2.54-2.48C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.96l2.91 2.26C4.6 5.05 6.62 3.48 9 3.48z"
                       fill="#EA4335"
@@ -169,8 +169,8 @@ const SignupForm = () => {
           >
             <div className="flex justify-center items-center gap-3 h-[50px]">
               <div className="w-6 h-6">
-                <svg viewBox="0 0 18 18" class="css-0">
-                  <g fill="#000" fill-rule="evenodd">
+                <svg viewBox="0 0 18 18" className="css-0">
+                  <g fill="#000" fillRule="evenodd">
                     <path
                       d="M9 3.48c1.69 0 2.83.73 3.48 1.34l2.54-2.48C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.96l2.91 2.26C4.6 5.05 6.62 3.48 9 3.48z"
                       fill="#EA4335"

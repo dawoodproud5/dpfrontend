@@ -212,7 +212,7 @@ function careers() {
                             <div className='mx-auto '>
                                 <Link href={"/job-details"}
                                     type="button"
-                                    class="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-6 py-2 md:py-3  md:m-2  focus:outline-none focus:shadow-outline">
+                                    className="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-6 py-2 md:py-3  md:m-2  focus:outline-none focus:shadow-outline">
                                     Apply Now
                                 </Link>
                             </div>
