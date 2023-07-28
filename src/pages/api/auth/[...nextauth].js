@@ -12,6 +12,7 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async session(session, user) {
       const name = session.session.user.name;
@@ -20,8 +21,7 @@ export default NextAuth({
       const obj = { email: email, name: name };
       await axios
         .post(`${url}/api/register/with/google`, obj)
-        .then((res) => {
-        })
+        .then((res) => {})
         .catch((err) => {
           console.log(err);
         });
