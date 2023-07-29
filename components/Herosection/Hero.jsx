@@ -20,8 +20,8 @@ function Hero() {
             {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
-            <div className="w-full max-w-[1200px] flex flex-col justify-center items-center ">
-                <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[75vh] w-full mt-20 md:mt-16 xl:mt-6">
+            <div className="w-full max-w-[1200px] flex flex-col justify-center items-center py-4 h-full">
+                <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full mt-20 md:py-16 xl:py-12 ">
                     <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                         {/* hero section text */}
                         <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto  p-0 sm:p-4 md:p-6 gap-4">
@@ -55,7 +55,7 @@ function Hero() {
                 </div>
 
                 {/* last section of the herosection */}
-                {/* <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
+                <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
                     <div className="relative h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
                         <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                     </div>
@@ -94,7 +94,7 @@ function Hero() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
             </div>
         </div>
