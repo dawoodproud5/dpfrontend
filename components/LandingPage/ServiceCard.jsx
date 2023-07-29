@@ -8,7 +8,7 @@ import Image from "next/image";
 
 function ServiceCard2({ heading, heading2, para, btntext, bgColor, link, images, icon, bg, text }) {
     return (
-        <div className={`w-full min-h-[100%] font-Inter text-[black] relative py-24 ${bgColor}`} >
+        <div className={`w-full min-h-[100%] font-Inter text-[black] relative pb-24 ${bgColor}`} >
             <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center max-w-[1172px] mx-auto px-6' >
                 <div className='flex-1 py-8'>
                     <Fade delay={100} duration={1000} triggerOnce={true} cascade={true} direction="left"  >

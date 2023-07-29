@@ -64,7 +64,7 @@ function CunterSection() {
                                 <FaUsers size={60} color="#001b47" />
                                 <CountUp
                                     start={0}
-                                    end={4000}
+                                    end={1000}
                                     duration={4}
                                     useEasing={true}
                                     separator=","
@@ -80,7 +80,7 @@ function CunterSection() {
                                 <FaEye size={60} color="#001b47" />
                                 <CountUp
                                     start={0}
-                                    end={18}
+                                    end={6}
                                     duration={8}
                                     useEasing={true}
                                     separator=","
@@ -96,7 +96,7 @@ function CunterSection() {
                                 <FaYoutube size={60} color="#001b47" />
                                 <CountUp
                                     start={50}
-                                    end={81}
+                                    end={23}
                                     duration={8}
                                     useEasing={true}
                                     separator=","
