@@ -24,14 +24,14 @@ function Hero() {
                 <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full mt-20 md:py-16 xl:py-12 ">
                     <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                         {/* hero section text */}
-                        <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto  p-0 sm:p-4 md:p-6 gap-4">
+                        <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto ">
                             <div className="flex flex-col justify-center xl:justify-start items-center xl:items-start  xl:-space-y-3 ">
                                 <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[50px] lg:text-[60px] ">Dawood Proud</h1>
                                 <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#01b88d]"> Stand Out from Crowd</h1>
                             </div>
                             <div className="text-center xl:text-left font-medium md:font-semibold px-4 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
                                 <p> Ultimate Destination for all <strong> YouTube Growth Services</strong> to take your channel to new heights.</p>
-                                {/* <p>All the successful YouTubers have one thing in common  <strong> {"\"They have Winnig Content Strategy.\""}</strong>  </p> */}
+                          
                             </div>
                             <div>
                                 <Link href={"/consultation"} className="text-sm ">
@@ -56,7 +56,7 @@ function Hero() {
 
                 {/* last section of the herosection */}
                 <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
-                    <div className="relative h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
+                    <div className="relative h-[220px]   sm:h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
                         <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                     </div>
                     <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4 xl:col-start-8 xl:col-span-7">
@@ -73,17 +73,17 @@ function Hero() {
                                 Discover how to <span className="hero_bg ">grow your YouTube <br /> channel</span>  with our professional coaches.
                             </p>
                         </div>
-                        <div className="flex flex-col xs:flex-row justify-center items-center gap-4 xs:gap-8">
-                            <div>
+                        <div className="flex flex-col xs:flex-row justify-center items-center py-4 xs:py-8 space-x-2">
+                            <div className="mb-6 xs:mb-0">
                                 <Link href={"/consultation"} className="text-xs xl:text-xm">
-                                    <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    <button className='border border-solid border-[#f0f0f0] px-4 py-[10px] ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                         Get Free Consultation
                                     </button>
                                 </Link>
                             </div>
                             <div>
                                 <Link href={"/services"} className="text-xs xl:text-xm ">
-                                    <button className=' px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                         <div className="flex justify-center items-center gap-2">
                                             <p>See all Services</p>
                                             <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
