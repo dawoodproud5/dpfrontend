@@ -13,7 +13,7 @@ function Hero() {
 
     return (
 
-        <div className="w-full min-h-screen flex flex-col items-center justify-center font-Inter mx-auto bg-[#001b47]">
+        <div className="w-full flex flex-col justify-center items-center font-Inter mx-auto bg-[#001b47]">
             <div className="w-full bg-white ">
                 <Navbar bg_color={"bg-white"} position={"absolute"} />
             </div>
@@ -48,9 +48,7 @@ function Hero() {
 
                     {/* hero sign up starts here */}
                     <div className=" xl:col-start-8 xl:col-span-7 mx-auto w-full flex flex-col items-center">
-
                         <SignUp />
-
                     </div>
                 </div>
 
@@ -73,18 +71,18 @@ function Hero() {
                                 Discover how to <span className="hero_bg ">grow your YouTube <br /> channel</span>  with our professional coaches.
                             </p>
                         </div>
-                        <div className="flex flex-col xs:flex-row justify-center items-center py-4 xs:py-8 space-x-2">
+                        <div className="flex flex-col xs:flex-row xs:justify-center xs:items-center py-4 xs:py-8 space-x-2 mx-auto">
                             <div className="mb-6 xs:mb-0">
                                 <Link href={"/consultation"} className="text-xs xl:text-xm">
-                                    <button className='border border-solid border-[#f0f0f0] px-4 py-[10px] ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    <button className='border border-solid border-[#f0f0f0] px-[12px] py-[10px]  rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                         Get Free Consultation
                                     </button>
                                 </Link>
                             </div>
                             <div>
                                 <Link href={"/services"} className="text-xs xl:text-xm ">
-                                    <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
-                                        <div className="flex justify-center items-center gap-2">
+                                    <button className='border border-solid border-[#f0f0f0] px-4 py-2  rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                        <div className="flex justify-center items-center gap-1">
                                             <p>See all Services</p>
                                             <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
                                         </div>
