@@ -17,12 +17,13 @@ function Hero() {
             <div className="w-full bg-white ">
                 <Navbar bg_color={"bg-white"} position={"absolute"} />
             </div>
-            {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
+
 
             {/* hero section text and images div */}
-            <div className="w-full max-w-[1200px] flex flex-col justify-center items-center py-4 h-full">
+            <div className="w-full max-w-[1200px] flex flex-col justify-center items-center py-4  ">
                 <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full mt-20 md:py-16 xl:py-12 ">
-                    <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
+                    <div className="  w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
+
                         {/* hero section text */}
                         <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto ">
                             <div className="flex flex-col justify-center xl:justify-start items-center xl:items-start  xl:-space-y-3 ">
@@ -31,7 +32,6 @@ function Hero() {
                             </div>
                             <div className="text-center xl:text-left font-medium md:font-semibold px-4 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
                                 <p> Ultimate Destination for all <strong> YouTube Growth Services</strong> to take your channel to new heights.</p>
-                          
                             </div>
                             <div>
                                 <Link href={"/consultation"} className="text-sm ">
@@ -42,10 +42,7 @@ function Hero() {
                                 </Link>
                             </div>
                         </div>
-
-
                     </div>
-
                     {/* hero sign up starts here */}
                     <div className=" xl:col-start-8 xl:col-span-7 mx-auto w-full flex flex-col items-center">
                         <SignUp />
@@ -53,7 +50,7 @@ function Hero() {
                 </div>
 
                 {/* last section of the herosection */}
-                <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
+                <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full   mb-8 xl:mb-12 max-w-[1200px]">
                     <div className="relative h-[220px]   sm:h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
                         <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                     </div>
@@ -84,7 +81,8 @@ function Hero() {
                                     <button className='border border-solid border-[#f0f0f0] px-4 py-2  rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                         <div className="flex justify-center items-center gap-1">
                                             <p>See all Services</p>
-                                            <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
+                                            <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
                                         </div>
 
                                     </button>
