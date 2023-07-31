@@ -14,7 +14,7 @@ function ServiceCard2({ heading, heading2, para, btntext, bgColor, link, images,
             <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center max-w-[1172px] mx-auto px-6' >
                 <div className='flex-1 py-8'>
                     <Fade delay={150} duration={1000} triggerOnce={true} cascade={true} direction="left" >
-                        <div className='w-[90%] h-[300px] md:h-[400px] relative '>
+                        <div className='w-[90%] h-[300px] md:h-[300px] relative '>
                             <Image src={images} alt="" fill className='object-contain ' />
                         </div>
                     </Fade>
