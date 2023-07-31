@@ -30,7 +30,7 @@ function ServiceCards() {
                 <ServiceCard3 icon={<FaAngleDoubleRight color='white' size={30} />} text={"Your Growth"} bg={"bg-[#f8cc23]"}
                     heading2={`Create the Right Strategy.`}
                     para={`We then evaluate your YouTube videos and present a custom plan that sets you up to reach that goal, all outlined in clear and actionable steps.`}
-                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.png"} />
+                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.svg"} />
 
                 <ServiceCard2 icon={<VscGraph color='white' size={25} />} text={"Your Results"} bg={"bg-[#1999d4]"}
                     heading2={`Evaluate Your Data.`}
@@ -40,7 +40,7 @@ function ServiceCards() {
                 <ServiceCard3 icon={<FiTarget color='white' size={30} />} text={"Your Momentum"} bg={"bg-[#01b88d]"}
                     heading2={`Adjust and Grow.`}
                     para={`Together we’ll eliminate the friction that’s holding your channel back and work with you to tweak the strategy for sustainable growth on YouTube.`}
-                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.png"} />
+                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.svg"} />
 
                 <div className="py-24">
                     <CounterSection />

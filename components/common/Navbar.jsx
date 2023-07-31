@@ -132,15 +132,15 @@ function Navbar({ bg_color, position }) {
             <Link href={item.Route} key={index}>
               <div className="relative  main list-none flex justify-center items-center">
                 <div key={index} className="cursor-pointer">{item.Name}</div>
-                {(index === 1) && <IoMdArrowDropdown size={20} className="block" />}
-                {item.hasDropdown && (
+                {/* {(index === 1) && <IoMdArrowDropdown size={20} className="block" />} */}
+                {/* {item.hasDropdown && (
 
                   <div className="hidden absolute top-[24px] left-[0px] w-[233px] shadow-2xl rounded-md border-1 border-white/10 border-solid span_dropdown bg-gray-gradient item py-3">
                     {item.dropdownItems.map((service, index) => (
                       <Link href={`${service.path}`} className="list-none px-4  py-1 text-[14px] leading-5 inline-block text-white/90 font-normal glow_text  " key={index}>{service.name}</Link>
                     ))}
                   </div>
-                )}
+                )} */}
               </div>
             </Link>
           ))}
@@ -207,7 +207,7 @@ function Navbar({ bg_color, position }) {
                     <div className="w-full  flex justify-start items-start ">
                       <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
                         <p>{item.Name}</p>
-                        {(index === 1) && <IoMdArrowDropdown size={30} className="ml-6"/>}
+                        {/* {(index === 1) && <IoMdArrowDropdown size={30} className="ml-6"/>} */}
                       </div>
                     </div>
                     {/* =====> sub items */}

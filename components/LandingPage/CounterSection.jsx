@@ -65,7 +65,7 @@ function CunterSection() {
                                 <CountUp
                                     start={0}
                                     end={1000}
-                                    duration={4}
+                                    duration={3}
                                     useEasing={true}
                                     separator=","
                                     prefix=''
@@ -95,9 +95,9 @@ function CunterSection() {
                             <div className='flex justify-center items-center gap-4'>
                                 <FaYoutube size={60} color="#001b47" />
                                 <CountUp
-                                    start={50}
+                                    start={0}
                                     end={23}
-                                    duration={8}
+                                    duration={6}
                                     useEasing={true}
                                     separator=","
                                     prefix=''
