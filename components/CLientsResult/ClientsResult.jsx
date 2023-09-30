@@ -52,7 +52,7 @@ function ClientsResult() {
               100K to 1 Million Views per Video
             </h2>
             <p className="font-Montserrat text-[18px] font-light italic text-[gray] py-8">
-              “Dawood and Team significantly boosted my channel's growth, making
+              “Dawood and Team significantly boosted my channel&apos;s growth, making
               Law education more accessible and empowering for my audience.”
             </p>
           </div>

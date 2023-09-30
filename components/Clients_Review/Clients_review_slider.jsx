@@ -152,7 +152,7 @@ export default function App() {
     <>
       <div className="flex flex-col justify-center items-center max-w-[1920px] w-full mx-auto">
         <h2 className="py-16 max-w-[800px] font-bold text-[36px] md:text-[40px] text-center">
-          Endorsed by some of YouTube's Most Esteemed Content Creators
+          Endorsed by some of YouTube&apos;s Most Esteemed Content Creators
         </h2>
 
         <Swiper
