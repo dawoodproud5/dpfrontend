@@ -78,7 +78,7 @@ const SignupForm = () => {
     return (
       <>
         <Loader open={open} message={message} />
-        <div className="flex flex-col items-center max-w-[100%] xl:max-w-[100%] space-y-1 sm:space-y-2 mt-8 xl:mt-20 font-Factor_A">
+        <div className="flex flex-col items-center max-w-[100%] xl:max-w-[100%] space-y-1 sm:space-y-2 mt-8 xl:mt-20 font-Inter">
           {/* signup button  */}
           <button className="px-12 rounded-full border-2 border-[#3b82f6]/90 bg-blue/10 hover:bg-white hover:text-blue text-white font-normal cursor-pointer mb-4 w-full h-[50px]">
             <div className="flex justify-center items-center gap-3 h-[50px]">

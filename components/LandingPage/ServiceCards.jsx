@@ -23,24 +23,24 @@ function ServiceCards() {
 
                 <ServiceCard icon={<FiTarget color='white' size={30} />} text={"Your Goals"} bg={"bg-[#001b47]"}
                     heading2={`It starts with you.`}
-                    para={`Our process always starts with clearly understanding what you want to accomplish with YouTube, whether that’s more views, more subscribers, increase revenue, or something else.`}
+                    para={`Our process always starts with clear understanding of what you want to accomplish with YouTube, whether that’s brand awareness, lead generation or YouTube Channel Growth`}
                     btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/Starts with You.svg"} />
 
 
-                <ServiceCard3 icon={<FaAngleDoubleRight color='white' size={30} />} text={"Your Growth"} bg={"bg-[#f8cc23]"}
-                    heading2={`Create the Right Strategy.`}
-                    para={`We then evaluate your YouTube videos and present a custom plan that sets you up to reach that goal, all outlined in clear and actionable steps.`}
-                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.svg"} />
-
-                <ServiceCard2 icon={<VscGraph color='white' size={25} />} text={"Your Results"} bg={"bg-[#1999d4]"}
-                    heading2={`Evaluate Your Data.`}
-                    para={`As you implement the strategy, we come alongside you to analyze your data and provide fresh ideas and insights.`}
+                <ServiceCard3 icon={<FaAngleDoubleRight color='white' size={30} />} text={"Comprehensive Analysis"} bg={"bg-[#f8cc23]"}
+                    heading2={`YouTube Channel Audit.`}
+                    para={`Performing a YouTube audit will give you clear action points and help you focus on fixing any glaring issues while baselining your performance.`}
                     btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/Channel Evaluation Audit.svg"} />
 
-                <ServiceCard3 icon={<FiTarget color='white' size={30} />} text={"Your Momentum"} bg={"bg-[#01b88d]"}
-                    heading2={`Adjust and Grow.`}
-                    para={`Together we’ll eliminate the friction that’s holding your channel back and work with you to tweak the strategy for sustainable growth on YouTube.`}
+                <ServiceCard2 icon={<VscGraph color='white' size={25} />} text={"Your Growth"} bg={"bg-[#1999d4]"}
+                    heading2={`Winning Content Strategy.`}
+                    para={`Get a tailored blueprint that positions your YouTube journey for success, with actionable measures to help you achieve your specific goals.`}
                     btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.svg"} />
+
+                <ServiceCard3 icon={<FiTarget color='white' size={30} />} text={"Your Results"} bg={"bg-[#01b88d]"}
+                    heading2={`Optimize and Grow.`}
+                    para={`Collaborate to eliminate hurdles and fine-tune your YouTube content strategy, ensuring steady, sustainable & exponential YouTube Growth.`}
+                    btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.png"} />
 
                 <div className="py-24">
                     <CounterSection />

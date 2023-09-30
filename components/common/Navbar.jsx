@@ -122,8 +122,8 @@ function Navbar({ bg_color, position }) {
     <div className={`w-full min-h-[3rem]  font-Inter font-semibold  fixed top-0 z-50 ${bg_color} bg-white`}>
       <div className="mx-w-[1200px] mx-auto min-h-full flex items-center text-[balck] justify-between lg:justify-around  ">
         {/* Logo here... */}
-        <div className="relative w-12 h-14 ">
-          <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
+        <div className="relative w-36 h-16 ">
+          <Link href={'/'} alt='home'> <Image src={"/Images/herosection/DP_logo.png"} alt="" fill className="object-contain" /></Link>
         </div>
 
         {/* nav items here......... */}
@@ -184,7 +184,7 @@ function Navbar({ bg_color, position }) {
               <div className="w-full flex justify-between items-center px-2 h-[100px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
                 <Link href={'/'} alt='home'>
                   <div className="relative w-10 h-10 ">
-                    <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />
+                    <Image src={"/Images/herosection/DP_logo.png"} alt="" fill className="object-contain" />
                   </div>
                 </Link>
                 <RxCross2 onClick={toggleDrawer} size={30} />

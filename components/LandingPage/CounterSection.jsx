@@ -42,10 +42,10 @@ function CunterSection() {
         <div className='w-full grid grid-cols-1 lg:grid-cols-2 font-Inter max-w-[1100px] mx-auto min-h-screen justify-center items-start gap-12 py-20'>
             <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 sm:px-0 mx-auto px-1 '>
                 <h2 className='text-[28px] md:text-[40px] font-extrabold text-center md:text-left leading-[42px] px-2 sm:px-0'>
-                    Our YouTube strategies just flat-out work
+                Our YouTube Strategies Deliver Proven Results
                 </h2>
                 <p className='text-[18px] md:text-[24px] font-light text-[#554b4d] max-w-[80%] text-center md:text-left'>
-                    When your livelihood depends on your YouTube channel, the advice you receive can’t just be someone’s good ideas. It must be data-driven and tested across thousands of channels.
+                In the world of YouTube where your channel is your livelihood, you need more than just ideas; you need data-backed, battle-tested strategies honed across thousands of channels.
                 </p>
                 <button className='flex justify-center items-center px-5 py-3 rounded-2xl bg-[#001b47] hover:bg-[#001b47] text-white font-bold gap-2'>
                     <Link href={"/consultation"}>Start a New Project</Link>
@@ -69,7 +69,7 @@ function CunterSection() {
                                     useEasing={true}
                                     separator=","
                                     prefix=''
-                                    suffix=""
+                                    suffix="+"
                                     className='text-[50px] font-light text-[#001b47]'
                                 />
                             </div>
