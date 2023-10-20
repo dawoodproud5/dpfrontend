@@ -5,58 +5,68 @@ import SideBar from "../../../../components/Services Page Sections/SidebarSevice
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import ConsultButton from "../../../../components/Utils/ConsultButton";
 
 function youtubeseo() {
   const liItem = [
     {
-      name: "1. Professional Expertise",
-      id: "professional_expertise",
+      name: "1. Why Keyword Research Matters for YouTube Success",
+      id: "why_keyword_research_matters",
     },
     {
-      name: "2. Low Competition, High Volume",
-      id: "low_competition_high_volume",
+      name: "Improved Visibility & Discovery",
+      id: "improved_visibility_discovery",
     },
     {
-      name: "3. Free Consistent Views ",
-      id: "free_consistent_views",
+      name: "Higher Click-Through Rates",
+      id: "higher_click_through_rates",
     },
     {
-      name: "4. Engaged Subscribers",
-      id: "engaged_subscribers",
+      name: "Increased Audience Retention",
+      id: "increased_audience_retention",
     },
     {
-      name: <p className="font-medium"> YouTube Keywords Research Process</p>,
-      id: "yotube_keyword_research_process",
-    },
-
-    {
-      name: "5. Understanding Your Niche",
-      id: "understanding_your_niche",
+      name: "Channel Authority",
+      id: "channel_authority",
     },
     {
-      name: "6. Comprehensive Keyword Analysis",
-      id: "comprehensive_keyword_analysis",
+      name: "Enhanced Growth",
+      id: "enhanced_growth",
     },
     {
-      name: "7. Keyword Recommendations",
-      id: "keyword_recommendations",
+      name: "2. Our YouTube Keywords Research Services",
+      id: "our_youtube_keywords_research_services",
     },
     {
-      name: "8. Implementation Guidance",
-      id: "implementation_guidance",
+      name: "Low Competition",
+      id: "low_competition",
+    },
+    {
+      name: "High Volume",
+      id: "high_volume",
+    },
+    {
+      name: "CPM / RPM Optimization",
+      id: "cpm_rpm_optimization",
+    },
+    {
+      name: "Rising Trend",
+      id: "rising_trend",
     },
   ];
 
   const sectionIds = [
-    "professional_expertise",
-    "low_competition_high_volume",
-    "free_consistent_views",
-    "engaged_subscribers",
-    "yotube_keyword_research_process",
-    "understanding_your_niche",
-    "comprehensive_keyword_analysis",
-    "keyword_recommendations",
-    "implementation_guidance",
+    "why_keyword_research_matters",
+    "improved_visibility_discovery",
+    "higher_click_through_rates",
+    "increased_audience_retention",
+    "channel_authority",
+    "enhanced_growth",
+    "our_youtube_keywords_research_services",
+    "low_competition",
+    "high_volume",
+    "cpm_rpm_optimization",
+    "rising_trend",
   ];
   return (
     <div className="">
@@ -135,195 +145,190 @@ function youtubeseo() {
           </div>
           <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
-              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
+              <h1 className="font-Inter font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 YouTube Keywords Research Services to Leverage Low Competition &
                 High Volume Keywords
-              </h1> */}
+              </h1>
             </div>
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start mt-12 px-2">
                 <div className="flex flex-col justify-center item-center gap-4 ">
                   <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  font-Inter space-y-4">
                     <p>
-                      Are you looking to maximize your visibility on YouTube and
-                      attract a dedicated audience?
+                      Are you tired of struggling to get your YouTube videos
+                      noticed? Do you dream of achieving consistent views and
+                      building an engaged subscriber base? Look no further!
                     </p>
                     <p>
-                      Our YouTube Keywords Research Services provide you with
-                      expert assistance in finding low competition and high
-                      volume keywords to enhance your YouTube titles and
-                      increase your chances of ranking higher in YouTube search
-                      results.
+                      At Dawood Proud, we specialize in YouTube Keywords
+                      Research Services that are tailored to leverage low
+                      competition and high volume keywords, helping you unlock
+                      the full potential of your YouTube channel.
                     </p>
                   </div>
-                  <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
-                    Why Choose Our YouTube Keywords Research Services?
-                  </h3>
                 </div>
 
                 {/* all the content starts here... */}
-                <div className="space-y-4 my-12 ">
+                <div className="space-y-4 my-12">
                   <h2
-                    id="professional_expertise"
+                    id="why_keyword_research_matters"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Professional Expertise
+                    Why Keyword Research Matters for YouTube Success
                   </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Our team of YouTube experts has extensive knowledge and
-                      experience in keyword research specifically tailored for
-                      YouTube.
-                    </p>
-                    <p>
-                      We understand the platform&apos;s algorithm and can
-                      identify keywords that have the potential to bring you
-                      consistent views and engaged subscribers.
-                    </p>
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
+                    <div className="mb-4">
+                      <h3
+                        id="improved_visibility_discovery"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Improved Visibility & Discovery:
+                      </h3>
+                      <p>
+                        By targeting the right keywords, your videos are more
+                        likely to appear in YouTube Search Results and
+                        Recommendations, increasing your chances of being
+                        discovered by a wider audience.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="higher_click_through_rates"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Higher Click-Through Rates:
+                      </h3>
+                      <p>
+                        Well-researched keywords can lead to more compelling
+                        video titles and thumbnails, enticing viewers to click
+                        on your content.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="increased_audience_retention"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Increased Audience Retention:
+                      </h3>
+                      <p>
+                        When you use the right keywords, you attract viewers who
+                        are genuinely interested in your content, leading to
+                        higher watch times and more engagement.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="channel_authority"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Channel Authority:
+                      </h3>
+                      <p>
+                        Consistent use of the right keywords can establish your
+                        channel as an authoritative source in your particular
+                        Niche, further accelerating your growth.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="enhanced_growth"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Enhanced Growth:
+                      </h3>
+                      <p>
+                        As your videos gain more views and engagement, your
+                        channel&apos;s overall growth accelerates, making it easier
+                        to reach milestones like monetization and subscriber
+                        goals.
+                      </p>
+                    </div>
                   </div>
 
                   <h2
-                    id="low_competition_high_volume"
+                    id="our_youtube_keywords_research_services"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Low Competition, High Volume
+                    Our YouTube Keywords Research Services
                   </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      High Volume: We delve deep into keyword analysis to
-                      discover hidden gems - low competition keywords with high
-                      search volume.
-                    </p>
-                    <p>
-                      By leveraging these keywords in your video titles, you can
-                      stand out from the crowd and attract more organic traffic.
-                    </p>
-                  </div>
-                  <h2
-                    id="free_consistent_views"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Free Consistent Views
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Optimizing your YouTube titles with the right keywords
-                      increases your chances of appearing in relevant search
-                      results.
-                    </p>
-                    <p>
-                      This exposure brings you free, consistent views from users
-                      actively searching for content in your niche.
-                    </p>
-                  </div>
-                  <h2
-                    id="engaged_subscribers"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Engaged Subscribers
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      When your video appears in search results with compelling
-                      titles, it captures the attention of potential subscribers
-                      who are genuinely interested in your content.
-                    </p>
-                    <p>
-                      By targeting the right keywords, we help you attract
-                      engaged subscribers who are more likely to interact,
-                      comment, and share your videos.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="max-w-[1172px] mx-auto">
-              <div className="flex flex-col justify-center items-start">
-                <div className="flex flex-col justify-center item-center gap-4 mb-3">
-                  <h3
-                    id="yotube_keyword_research_process"
-                    className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 "
-                  >
-                    Our YouTube Keywords Research Process
-                  </h3>
-                </div>
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
+                    <div className="mb-4">
+                      <h3
+                        id="low_competition"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Low Competition:
+                      </h3>
+                      <p>
+                        We identify niches with lower competition, giving you a
+                        better chance to stand out and grow your audience.
+                      </p>
+                    </div>
 
-                {/* all the content starts here... */}
-                <div className="space-y-4 my-16 p-3 ">
-                  <h2
-                    id="understanding_your_niche"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Understanding Your Niche
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We start by gaining a thorough understanding of your
-                      niche, target audience, and content goals.
-                    </p>
-                    <p>
-                      This allows us to tailor our keyword research to your
-                      specific needs.
-                    </p>
-                  </div>
-                  <h2
-                    id="comprehensive_keyword_analysis"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Comprehensive Keyword Analysis
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Our team conducts in-depth research using advanced tools
-                      and techniques to identify relevant keywords with low
-                      competition and high search volume.
-                    </p>
-                    <p>
-                      We analyze trends, search patterns, and competitor
-                      strategies to uncover untapped keyword opportunities.
-                    </p>
-                  </div>
-                  <h2
-                    id="keyword_recommendations"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Keyword Recommendations
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Based on our research, we provide you with a comprehensive
-                      list of recommended keywords for your YouTube titles.
-                    </p>
-                    <p>
-                      These keywords are carefully selected to maximize your
-                      visibility and engagement.
-                    </p>
-                  </div>
-                  <h2
-                    id="implementation_guidance"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Implementation Guidance
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We guide you on how to effectively incorporate the
-                      researched keywords into your video titles to optimize
-                      your chances of ranking higher in YouTube search results.
-                    </p>
+                    <div className="mb-4">
+                      <h3
+                        id="high_volume"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        High Volume:
+                      </h3>
+                      <p>
+                        Our services focus on niches with a substantial viewer
+                        base, ensuring that your content has the potential to
+                        reach a wide audience.
+                      </p>
+                    </div>
 
+                    <div className="mb-4">
+                      <h3
+                        id="cpm_rpm_optimization"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        CPM / RPM Optimization:
+                      </h3>
+                      <p>
+                        We consider the CPM (Cost Per Mille) and RPM (Revenue
+                        Per Mille) potential of your chosen niche, helping you
+                        maximize your earnings.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="rising_trend"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Rising Trend:
+                      </h3>
+                      <p>
+                        We keep an eye on trends and select niches with a
+                        growing audience, ensuring that your channel can benefit
+                        from increased interest over time.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
                     <p>
-                      Unlock the power of YouTube&apos;s search algorithm and
-                      increase your channel&apos;s visibility with our YouTube
-                      Keywords Research Services.
+                      Don&apos;t let indecision hinder your YouTube journey. Let us
+                      help you uncover the niche that will propel you to
+                      success.
                     </p>
                     <p>
-                      Gain consistent views, attract engaged subscribers, and
-                      grow your channel organically. Contact us today to
-                      leverage low competition and high volume keywords for your
-                      YouTube titles.
+                      Ready to take the plunge? Contact us today for a{" "}
+                      <Link href="/consultation" className="text-blue-500">
+                        Free Consultation
+                      </Link>{" "}
+                      and let&apos;s revolutionize your YouTube journey together!
                     </p>
                   </div>
+
+                  <ConsultButton />
                 </div>
               </div>
             </div>

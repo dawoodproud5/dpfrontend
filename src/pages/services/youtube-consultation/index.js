@@ -6,26 +6,27 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import style from "../../../fonts/font.module.css";
+import ConsultButton from "../../../../components/Utils/ConsultButton";
 function YoutubeConsutation() {
   const liItem = [
     {
-      name: "1. Free Consultation",
+      name: "1. YouTube Content Strategy",
       id: "free_consultation",
     },
     {
-      name: "2. Tailored Content Strategy",
+      name: "2. Optimization Techniques",
       id: "tailored_content_strategy",
     },
     {
-      name: "3. Channel Analysis ",
+      name: "3. Audience Engagement",
       id: "channel_analysis",
     },
     {
-      name: "4. Audience Development ",
+      name: "4. Analytics Mastery",
       id: "audience_development",
     },
     {
-      name: "5. YouTube Video SEO",
+      name: "5. Staying Updated",
       id: "youtube_video_seo",
     },
   ];
@@ -70,8 +71,11 @@ function YoutubeConsutation() {
         <div className="flex flex-col justify-start sm:justify-center items-start sm:items-center mt-16 sm:mt-8 min-h-[420px] max-w-full">
           <div className="text-[white]/80 relative w-full  grid grid-rows-12  pt-4 sm:pt-2">
             <h3 className="col-start-1 sm:col-start-3 col-span-5 font-Inter font-light text-[14px] sm:text-[14px] ml-3 sm:pl-4">
-             <Link href={"/services"}>Services</Link>  <span className="text-[#41b0ff]">/</span> <Link href={"/services/youtube-consultation"}>Youtube
-              Consultation</Link>
+              <Link href={"/services"}>Services</Link>{" "}
+              <span className="text-[#41b0ff]">/</span>{" "}
+              <Link href={"/services/youtube-consultation"}>
+                Youtube Consultation
+              </Link>
             </h3>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -79,12 +83,10 @@ function YoutubeConsutation() {
               <div className=" text-white sm:col-start-4 sm:col-span-5 text-left mt-8 xl:mt-1 pr-10 sm:pr-0 pl-3 sm:pl-0">
                 <div className="flex flex-col items-start justify-start gap-2">
                   <h1 className="text-[24px] md:text-[24px] lg:text-[36px] xl:text-[44px] font-bold xl:leading-[50px] font-Factor_A max-w-3xl pr-8 py-[12px]">
-                 
                     Certified YouTube Consulting:{" "}
                     <span className="text-[#41b0ff] ">
                       Get Free Content Strategy from YouTube Experts
                     </span>
-                    
                   </h1>
 
                   <div className="font-Inter font-light text-[14px] sm:text-[14px]  flex gap-4 sm:gap-6 mb-2 ml-0 sm:ml-2 pt-5 text-[white]/80">
@@ -129,92 +131,95 @@ function YoutubeConsutation() {
                     </p>
                   </div>
 
-                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
+                  <h2 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Why Choose Our YouTube Consulting Services?
-                  </h3>
+                  </h2>
                 </div>
 
                 {/* all the content starts here... */}
                 <div className="space-y-8 mt-8">
-                  <h2
+                  <h3
                     id="free_consultation"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Free Consultation
-                  </h2>
+                    Personalized Guidance
+                  </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Take advantage of our complimentary YouTube consultation
-                    with experienced experts. Gain valuable insights and
-                    personalized strategies to accelerate your channel&apos;s
-                    growth.
+                    Our YouTube Experts will work closely with you to understand
+                    your unique goals, channel niche, and target audience. We
+                    provide personalized recommendations tailored to your
+                    specific needs.
                   </p>
-
-                  <h2
+                  <h3
                     id="tailored_content_strategy"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Tailored Content Strategy
-                  </h2>
+                    YouTube Content Strategy
+                  </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Every channel is unique, and we understand the importance of
-                    customized approaches. Our consultants will develop a
-                    tailored content strategy to maximize your channel&apos;s
-                    success.
+                    We&apos;ll help you develop a comprehensive YouTube
+                    Strategy, including content ideas, posting schedules, and
+                    Audience Retention tactics.
                   </p>
-
-                  <h2
+                  <h3
                     id="channel_analysis"
                     className="text-xl md:text-2xl  font-bold font-Factor_A"
                   >
-                    Channel Analysis
-                  </h2>
+                    Optimization Techniques
+                  </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Our experts will conduct a comprehensive analysis of your
-                    channel, examining your content, audience, engagement, and
-                    SEO. Identify strengths and opportunities for improvement.
+                    We&apos;ll help you Learn the secrets of YouTube SEO (Search
+                    Engine Optimization) to boost your video rankings and
+                    visibility so that you can reach a broader audience.
+                    We&apos;ll teach you how to use keywords effectively and
+                    optimize your video titles, descriptions, and tags.
                   </p>
-
-                  <h2
+                  <h3
                     id="audience_development"
                     className="text-xl md:text-2xl  font-bold font-Factor_A"
                   >
-                    Audience Development
-                  </h2>
+                    Audience Engagement
+                  </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Build a loyal and engaged audience through our proven
-                    techniques. We&apos;ll help you identify your target
-                    audience, optimize content to meet their interests, and
-                    foster strong connections.
+                    Discover strategies for increasing viewer engagement, such
+                    as crafting compelling thumbnails, improving video
+                    production quality, and fostering a sense of community among
+                    your subscribers.
                   </p>
-
                   <h3
                     id="youtube_video_seo"
                     className="text-xl md:text-2xl  font-bold font-Factor_A"
                   >
-                    YouTube Video SEO
+                    Analytics Mastery
                   </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Enhance your channel&apos;s visibility with effective search
-                    engine optimization techniques. Our consultants will
-                    optimize titles, tags, descriptions, and metadata for better
-                    discoverability.
+                    Understand the power of YouTube Analytics and how to use
+                    data-driven insights to make informed decisions that will
+                    drive growth and success.
                   </p>
-
-                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A ">
-                    Ready to Take Your YouTube Channel to New Heights?
+                  <h3
+                    id="youtube_video_seo"
+                    className="text-xl md:text-2xl  font-bold font-Factor_A"
+                  >
+                    Staying Updated
                   </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Contact our certified YouTube consultants today to claim
-                    your free consultation. Let us help you unlock the full
-                    potential of your channel and achieve the success you
-                    deserve. Start your journey towards YouTube excellence with
-                    Dawood Proud.
+                    The world of YouTube is ever-evolving. Our consultants stay
+                    up-to-date with the latest algorithm changes, trends, and
+                    best practices, ensuring that your channel remains
+                    competitive and relevant.
                   </p>
+                  <h2 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A ">
+                    Ready to Get Started?
+                  </h2>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">
-                    Remember, our commitment is to your growth and success. Get
-                    in touch now and embark on a transformative YouTube journey
-                    with our expert guidance and tailored strategies.
+                    Whether you&apos;re just starting your YouTube journey or
+                    looking to boost an existing channel, our YouTube
+                    Consultation Services are here to help you succeed. Take the
+                    first step towards YouTube growth and schedule a
+                    consultation today!
                   </p>
+                  <ConsultButton />
                 </div>
               </div>
             </div>

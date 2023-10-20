@@ -5,42 +5,63 @@ import SideBar from "../../../../components/Services Page Sections/SidebarSevice
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import ConsultButton from "../../../../components/Utils/ConsultButton";
 
 function youtubeseo() {
   const liItem = [
     {
-      name: "1. Professional Expertise",
-      id: "professional_expertise",
+      name: "1. Why YouTube SEO Matters",
+      id: "why_youtube_seo_matters",
     },
     {
-      name: "2. High-Quality Content",
-      id: "high_quality_content",
+      name: "2. Our 6-Step YouTube SEO Process",
+      id: "our_6_step_youtube_seo_process",
     },
     {
-      name: "3. Engaging Faceless YouTube Content",
-      id: "engaging_faceless_youtube_content",
+      name: "2.1 Initial Consultation",
+      id: "initial_consultation",
     },
     {
-      name: "4. Tailored Solutions",
-      id: "tailored_solutions",
+      name: "2.2 Keywords Research",
+      id: "keywords_research",
     },
     {
-      name: "5. Collaboration and Communication",
-      id: "collaboration_communication",
+      name: "2.3 Title Optimization",
+      id: "title_optimization",
     },
     {
-      name: "6. Timely Delivery",
-      id: "timely_delivery",
+      name: "2.4 Description Optimization",
+      id: "description_optimization",
+    },
+    {
+      name: "2.5 High-Rank Tags",
+      id: "high_rank_tags",
+    },
+    {
+      name: "2.6 Internal Linking and External Linking",
+      id: "linking",
+    },
+    {
+      name: "2.7 Analytics and Performance Tracking",
+      id: "analytics_and_performance_tracking",
+    },
+    {
+      name: "3. Ready to Get Started?",
+      id: "ready_to_get_started",
     },
   ];
 
   const sectionIds = [
-    "professional_expertise",
-    "high_quality_content",
-    "engaging_faceless_youtube_content",
-    "tailored_solutions",
-    "collaboration_communication",
-    "timely_delivery",
+    "why_youtube_seo_matters",
+    "our_6_step_youtube_seo_process",
+    "initial_consultation",
+    "keywords_research",
+    "title_optimization",
+    "description_optimization",
+    "high_rank_tags",
+    "linking",
+    "analytics_and_performance_tracking",
+    "ready_to_get_started",
   ];
 
   return (
@@ -121,158 +142,175 @@ function youtubeseo() {
                 <div className="flex flex-col justify-center item-center gap-4 mb-3">
                   <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  font-Inter space-y-4">
                     <p>
-                      At Dawood Proud, we offer comprehensive YouTube video
-                      production services to help you maximize your success on
-                      the platform.
+                      Welcome to Dawood Proud, your trusted YouTube SEO Agency.
+                      Are you struggling to get your videos noticed in the
+                      crowded world of YouTube?
                     </p>{" "}
                     <p>
-                      Our team of YouTube experts is dedicated to creating
-                      high-quality, engaging content that will captivate your
-                      audience and drive results.
-                    </p>
-                    <p>
-                      With our YouTube video creation services, we provide a
-                      range of solutions tailored to your specific needs.
-                    </p>
-                    <p>
-                      Whether you&apos;re an individual creator, a brand, or a
-                      business, we have the expertise to deliver outstanding
-                      videos that align with your goals and resonate with your
-                      target audience.
+                      Our YouTube SEO Services are tailored to help you dominate
+                      the platform, ranking your videos at the top of YouTube
+                      search results.
                     </p>
                   </div>
 
-                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
+                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-semibold font-Factor_A">
                     Why Choose Our YouTube Video Production Services:
                   </h3>
                 </div>
-
                 {/* all the content starts here... */}
-                <div className="space-y-4 my-16 ">
+                <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
                   <h2
-                    id="professional_expertise"
+                    id="why_youtube_seo_matters"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Professional Expertise
+                    Why YouTube SEO Matters
                   </h2>
-
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  font-Inter space-y-4">
-                    <p>
-                      Our team consists of experienced professionals who
-                      understand the intricacies of YouTube video production.
-                    </p>
-                    <p>
-                      We stay up to date with the latest trends, techniques, and
-                      strategies to ensure that your videos stand out from the
-                      crowd.
-                    </p>
-                  </div>
-                  <h2
-                    id="high_quality_content"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    High-Quality Content
-                  </h2>
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We pride ourselves on delivering exceptional quality in
-                      every video we create.
-                    </p>
-                    <p>
-                      From scripting and storyboarding to filming and editing,
-                      we maintain a keen eye for detail to produce polished,
-                      visually appealing videos that leave a lasting impact.
-                    </p>
-                  </div>
+                  <p>
+                    YouTube is the World&apos;s Second Largest search engine in the
+                    world, with billions of users searching for content every
+                    day. To stand out in this competitive landscape, it's
+                    essential to optimize your videos for search engines and
+                    user discovery. That's where our YouTube SEO Services come
+                    into play.
+                  </p>
 
                   <h2
-                    id="engaging_faceless_youtube_content"
+                    id="our_6_step_youtube_seo_process"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Engaging Faceless YouTube Content
+                    Our 6-Step YouTube SEO Process
                   </h2>
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
+                    <div className="mb-4">
+                      <h3
+                        id="initial_consultation"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Initial Consultation
+                      </h3>
+                      <p>
+                        We begin by understanding your goals and objectives.
+                        During our initial consultation, we'll discuss your
+                        target audience, content niche, and what you hope to
+                        achieve with your YouTube channel. This step helps us
+                        tailor our YouTube SEO strategy to your specific needs.
+                      </p>
+                    </div>
 
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Our video production approach emphasizes engaging faceless
-                      content that captivates viewers.
-                    </p>
-                    <p>
-                      We understand the importance of connecting with your
-                      audience, and our creative team excels at crafting videos
-                      that resonate with viewers, even without on-screen talent.
-                    </p>
+                    <div className="mb-4">
+                      <h3
+                        id="keywords_research"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Keywords Research
+                      </h3>
+                      <p>
+                        Our team conducts comprehensive YouTube keyword research
+                        to identify high-volume, low-competition keywords
+                        relevant to your content. These keywords are crucial for
+                        boosting your video's visibility in YouTube search
+                        results, helping you attract a larger audience.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="title_optimization"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Title Optimization
+                      </h3>
+                      <p>
+                        We craft compelling titles that not only capture
+                        viewers' attention but also, we incorporate target High
+                        Volume Keywords having low competition and rising
+                        trends. This strategic approach ensures your videos are
+                        more discoverable in YouTube search results, driving
+                        increased clicks and engagement.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="description_optimization"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Description Optimization
+                      </h3>
+                      <p>
+                        We will optimize YouTube Video Description based on
+                        Variation of Keywords and Long Tail keywords. Also, we
+                        include relevant High rank hashtags. These optimizations
+                        ensure that the YouTube algorithm understands the
+                        context of your video, improving its discoverability
+                        among your target audience.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="high_rank_tags"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        High-Rank Tags
+                      </h3>
+                      <p>
+                        To boost discoverability, we strategically add
+                        high-ranking video tags. These tags are aligned with
+                        your target keywords and niche, making your content more
+                        visible in YouTube search results and recommendations.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="linking"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Internal Linking and External Linking
+                      </h3>
+                      <p>
+                        Our YouTube SEO strategy includes both internal and
+                        external linking. Internal linking helps improve viewer
+                        engagement by guiding them to other relevant videos on
+                        your channel. External linking acts as a form of
+                        backlinking, enhancing the authority and credibility of
+                        your videos.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="analytics_and_performance_tracking"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Analytics and Performance Tracking
+                      </h3>
+                      <p>
+                        We continually monitor the performance of your videos,
+                        their Audience Retention and Engagement using advanced
+                        analytics tools. This data-driven approach allows us to
+                        refine our YouTube SEO Strategies, adapt to changing
+                        trends, and ensure consistent and sustainable growth
+                        over time.
+                      </p>
+                    </div>
                   </div>
+
                   <h2
-                    id="tailored_solutions"
+                    id="ready_to_get_started"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Tailored Solutions
+                    Ready to Get Started?
                   </h2>
-
-                  <div className="text-[16px] md:text-[20.4px]  font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We recognize that each YouTube channel is unique, with its
-                      own branding, goals, and target audience. Our services are
-                      fully customizable to meet your specific requirements.
-                    </p>
-                    <p>
-                      We take the time to understand your vision and tailor our
-                      approach accordingly, ensuring that the final product
-                      aligns seamlessly with your brand identity.
-                    </p>
-                  </div>
-
-                  <h3
-                    id="collaboration_communication"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Collaboration and Communication
-                  </h3>
-
-                  <div className="text-[16px] md:text-[20.4px]  font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We believe in working closely with our clients throughout
-                      the video production process. From initial ideation to
-                      final delivery, we maintain open lines of communication,
-                      seeking your input and feedback at every stage.
-                    </p>
-                    <p>
-                      Our collaborative approach ensures that your vision is
-                      brought to life while leveraging our expertise.
-                    </p>
-                  </div>
-                  <h3
-                    id="timely_delivery"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Timely Delivery
-                  </h3>
-
-                  <div className="text-[16px] md:text-[20.4px]  font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      We understand the importance of timely delivery in the
-                      fast-paced world of YouTube. Our team is committed to
-                      meeting deadlines without compromising on quality.
-                    </p>
-                    <p>
-                      You can trust us to deliver your videos promptly, allowing
-                      you to maintain a consistent content schedule and engage
-                      your audience effectively.
-                    </p>
-                  </div>
-
-                  <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
-                    <p>
-                      Partner with Dawood Proud for your YouTube video
-                      production needs and take your channel to new heights.
-                    </p>
-                    <p>
-                      Contact us today to discuss how our services can help you
-                      achieve your YouTube goals.
-                    </p>
-                  </div>
+                  <p>
+                    Contact us today to discuss your needs and objectives.
+                    Whether you're a budding content creator or a seasoned
+                    channel owner, our YouTube SEO services are here to help you
+                    thrive.
+                  </p>
                 </div>
+                <ConsultButton />
               </div>
             </div>
           </div>

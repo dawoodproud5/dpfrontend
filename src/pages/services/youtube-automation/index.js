@@ -5,36 +5,57 @@ import SideBar from "../../../../components/Services Page Sections/SidebarSevice
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import ConsultButton from "../../../../components/Utils/ConsultButton";
 function youtubeseo() {
   const liItem = [
     {
-      name: "1. Effortless Channel Growth",
-      id: "effortless_channel_growth",
+      name: "1. Our 8 Step YouTube Automation Process",
+      id: "our_8_step_youtube_automation_process",
     },
     {
-      name: "2. Professional Expertise",
-      id: "professional_expertise",
+      name: "1.1 Initial Consultation",
+      id: "initial_consultation",
     },
     {
-      name: "3. Time-Saving Solution",
-      id: "time_saving_solution",
+      name: "1.2 YouTube Niche Selection",
+      id: "youtube_niche_selection",
     },
     {
-      name: "4. Customized Approach",
-      id: "customized_approach",
+      name: "1.3 YouTube Keywords Research",
+      id: "youtube_keywords_research",
     },
     {
-      name: "5. Increased Reach and Engagement",
-      id: "increased_reach_engagement",
+      name: "1.4 Faceless Content Creation",
+      id: "faceless_content_creation",
+    },
+    {
+      name: "1.5 Thumbnail Designing",
+      id: "thumbnail_designing",
+    },
+    {
+      name: "1.6 YouTube Video SEO",
+      id: "youtube_video_seo",
+    },
+    {
+      name: "1.7 YouTube Channel Management",
+      id: "youtube_channel_management",
+    },
+    {
+      name: "1.8 Audience Engagement",
+      id: "audience_engagement",
     },
   ];
 
   const sectionIds = [
-    "effortless_channel_growth",
-    "professional_expertise",
-    "time_saving_solution",
-    "customized_approach",
-    "increased_reach_engagement",
+    "our_8_step_youtube_automation_process",
+    "initial_consultation",
+    "youtube_niche_selection",
+    "youtube_keywords_research",
+    "faceless_content_creation",
+    "thumbnail_designing",
+    "youtube_video_seo",
+    "youtube_channel_management",
+    "audience_engagement",
   ];
   return (
     <div className="">
@@ -113,145 +134,158 @@ function youtubeseo() {
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start mt-12 px-2">
                 <div className="flex flex-col justify-center item-center gap-6 ">
-                  <div className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]   font-Inter space-y-5">
+                  <div className="text-[16px] md:text-[20.4px]  font-light leading-[32.4px]   font-Inter space-y-5">
                     <p>
-                      At Dawood Proud, we offer comprehensive YouTube Automation
-                      Services designed to help you grow your channel without
-                      the hassle of creating videos.
-                    </p>
-                    <p>
-                      Our expert team will handle all aspects of automation,
-                      allowing you to achieve success effortlessly. With our
-                      proven strategies, you can unlock the full potential of
-                      your YouTube channel and maximize your reach.
-                    </p>
-                    <p>
-                      Whether you&apos;re a content creator, business owner, or
-                      aspiring influencer, our &quot;Done For You&quot; approach
-                      ensures that your channel flourishes while you focus on
-                      other important aspects of your online presence.
-                    </p>
-                    <p>
-                      Say goodbye to the time-consuming task of video creation
-                      and let us take care of the automation process for you.
-                      With our YouTube Automation Services, you&apos;ll
-                      experience substantial growth and engagement, attracting a
-                      wider audience and increasing your subscribers.
-                    </p>
-                    <p>
-                      Start your journey towards YouTube success today with
-                      Dawood Proud&apos;s professional and reliable YouTube
-                      Automation Services.
-                    </p>
-                  </div>
-
-                  <div className="flex flex-col justify-center items-start gap-12">
-                    <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
-                      Our YouTube Automation Services
-                    </h3>
-                    <p className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px] ">
-                      Discover the benefits of our comprehensive YouTube
-                      Automation Services:
+                      In today's fast-paced digital world, maintaining a
+                      successful YouTube channel can be a challenging task.
+                      That's where our YouTube Automation Services come into
+                      play. We're here to help you grow your channel, increase
+                      your visibility, and save you time and effort.
                     </p>
                   </div>
                 </div>
 
                 {/* all the content starts here... */}
-                <div className="space-y-6 my-12 p-3 ">
+                <div className="space-y-4 my-12">
                   <h2
-                    id="effortless_channel_growth"
+                    id="our_8_step_youtube_automation_process"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
-                    Effortless Channel Growth
+                    Our 8 Step YouTube Automation Process
                   </h2>
-                  <ul className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    <li>
-                      Experience substantial channel growth without the hassle
-                      of creating videos.
-                    </li>
-                    <li>
-                      Our automation strategies ensure consistent and targeted
-                      audience engagement.
-                    </li>
-                  </ul>
+                  <p className="text-[16px] md:text-[20.4px]  !font-light leading-[32.4px]]">
+                    At Dawood Proud, we've meticulously crafted a comprehensive
+                    8-step YouTube Automation Process to ensure your channel's
+                    success. With our expert guidance and dedication, you'll see
+                    your YouTube channel grow like never before.
+                  </p>
 
-                  <h2
-                    id="professional_expertise"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Professional Expertise
-                  </h2>
-                  <ul className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    <li>
-                      Benefit from our team of experts who are experienced in
-                      YouTube automation.
-                    </li>
-                    <li>
-                      We stay up-to-date with the latest trends and algorithms
-                      to optimize your channel&apos;s performance.
-                    </li>
-                  </ul>
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
+                    <div className="mb-4">
+                      <h3
+                        id="initial_consultation"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Initial Consultation
+                      </h3>
+                      <p>
+                        We start by understanding your interests, strengths,
+                        goals, and vision for your YouTube channel during a
+                        detailed consultation.
+                      </p>
+                    </div>
 
-                  <h2
-                    id="time_saving_solution"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Time-Saving Solution
-                  </h2>
-                  <ul className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    <li>
-                      Save valuable time by outsourcing the time-consuming task
-                      of video creation.
-                    </li>
-                    <li>
-                      Focus on other important aspects of your online presence
-                      while we handle the automation process.
-                    </li>
-                  </ul>
+                    <div className="mb-4">
+                      <h3
+                        id="youtube_niche_selection"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        YouTube Niche Selection
+                      </h3>
+                      <p>
+                        In this initial step, we work diligently to find the
+                        perfect niche for your YouTube channel. We aim for a
+                        niche that strikes the ideal balance between low
+                        competition and high viewership potential, setting the
+                        stage for your channel's growth.
+                      </p>
+                    </div>
 
-                  <h2
-                    id="customized_approach"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Customized Approach
-                  </h2>
-                  <ul className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    <li>
-                      We tailor our services to meet your specific goals and
-                      requirements.
-                    </li>
-                    <li>
-                      Our team will work closely with you to understand your
-                      target audience and develop a customized automation
-                      strategy.
-                    </li>
-                  </ul>
+                    <div className="mb-4">
+                      <h3
+                        id="youtube_keywords_research"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        YouTube Keywords Research
+                      </h3>
+                      <p>
+                        Our team conducts meticulous YouTube Keywords Research
+                        to identify keywords with high search volume, low
+                        competition, and rising trends. This research ensures
+                        that your videos target the right audience and gain the
+                        visibility they deserve.
+                      </p>
+                    </div>
 
-                  <h2
-                    id="increased_reach_engagement"
-                    className="text-xl md:text-2xl font-bold font-Factor_A"
-                  >
-                    Increased Reach and Engagement
-                  </h2>
-                  <ul className="text-[16px] md:text-[20.4px]    font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    <li>
-                      Attract a wider audience and increase your subscriber
-                      base.
-                    </li>
-                    <li>
-                      Our proven techniques and optimization methods will
-                      enhance your channel&apos;s visibility and engagement.
-                    </li>
-                  </ul>
-                  <br />
-                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
-                    Get Started with YouTube Automation Today!
-                  </h3>
-                  <div className="text-[16px] md:text-[20.4px]    font-normal leading-[32.4px] mt-4 font-Inter">
-                    Achieve YouTube success without the stress of video
-                    creation. Let Dawood Proud&apos;s YouTube Automation
-                    Services handle the process for you. Contact us now to get
-                    started and take your YouTube channel to new heights..
+                    <div className="mb-4">
+                      <h3
+                        id="faceless_content_creation"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Faceless Content Creation
+                      </h3>
+                      <p>
+                        Our content creators specialize in producing engaging
+                        Faceless YouTube Content that captivates your audience.
+                        Whether it's informative content, tutorials, or
+                        entertainment, we ensure your viewers keep coming back
+                        for more.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="thumbnail_designing"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Thumbnail Designing
+                      </h3>
+                      <p>
+                        The first impression is crucial. We design eye-catching
+                        thumbnails that make your videos stand out in a sea of
+                        content. A captivating thumbnail is the key to getting
+                        viewers to click on your video.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="youtube_video_seo"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        YouTube Video SEO
+                      </h3>
+                      <p>
+                        To optimize your video's performance, we employ advanced
+                        YouTube Video SEO techniques. From crafting compelling
+                        titles, descriptions, and tags to optimizing for search
+                        algorithms, we take care of it all.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="youtube_channel_management"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        YouTube Channel Management
+                      </h3>
+                      <p>
+                        We manage your YouTube channel with the utmost care.
+                        This involves keeping your content organized, scheduling
+                        uploads for maximum impact, engaging with your audience,
+                        and monitoring your channel's overall performance.
+                      </p>
+                    </div>
+
+                    <div className="mb-4">
+                      <h3
+                        id="audience_engagement"
+                        className="text-lg md:text-xl font-bold font-Factor_A"
+                      >
+                        Audience Engagement
+                      </h3>
+                      <p>
+                        In the final step, we work on fostering a strong
+                        community around your channel. Engaging with your
+                        audience through comments, likes, and responses is
+                        crucial for building a loyal following. We'll help you
+                        strategize and execute effective community engagement
+                        campaigns to connect with your viewers on a deeper
+                        level.
+                      </p>
+                    </div>
+                    <ConsultButton />
                   </div>
                 </div>
               </div>
