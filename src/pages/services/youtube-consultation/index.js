@@ -49,7 +49,7 @@ function YoutubeConsutation() {
         <meta
           name="description"
           content="Looking for a certified YouTube marketing consultant?
-           Get a free YouTube Consulting and Tailored Content Strategy to boost your channel's success."
+           Get a free YouTube Consulting and Tailored Content Strategy to boost your channel&apos;s success."
         />
         <meta
           name="keywords"

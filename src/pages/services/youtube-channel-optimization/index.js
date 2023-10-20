@@ -155,11 +155,11 @@ function youtubeseo() {
                   <div className="text-[16px] md:text-[20.4px]     font-light leading-[32.4px]  font-Inter space-y-4">
                     <p>
                       Welcome to Dawood Proud, your one-stop solution for
-                      boosting your YouTube channel's performance and
-                      visibility. Whether you're a seasoned content creator or
+                      boosting your YouTube channel&apos;s performance and
+                      visibility. Whether you&apos;re a seasoned content creator or
                       just starting your YouTube journey, our YouTube Channel
                       Optimization services will help you maximize your
-                      channel's potential.
+                      channel&apos;s potential.
                     </p>
                   </div>
 
@@ -226,7 +226,7 @@ function youtubeseo() {
                       </h3>
                       <p>
                         Create a professional and cohesive brand image that
-                        resonates with your viewers, boosting your channel's
+                        resonates with your viewers, boosting your channel&apos;s
                         credibility and trustworthiness.
                       </p>
                     </div>
@@ -262,7 +262,7 @@ function youtubeseo() {
                         Keyword Research for Channel
                       </h3>
                       <p>
-                        We'll conduct in-depth keyword research to discover the
+                        We&apos;ll conduct in-depth keyword research to discover the
                         winning channel keywords / channel tags in your niche.
                         Our SEO experts will then optimize your channel
                         according to those Broad keywords so that channel
@@ -293,7 +293,7 @@ function youtubeseo() {
                         Competitor Analysis
                       </h3>
                       <p>
-                        We'll assess your competitors and identify areas where
+                        We&apos;ll assess your competitors and identify areas where
                         you can outshine them, helping you stay one step ahead
                         in your niche.
                       </p>
@@ -307,9 +307,9 @@ function youtubeseo() {
                         Analytics and Performance Tracking
                       </h3>
                       <p>
-                        Stay informed about your channel's growth and
+                        Stay informed about your channel&apos;s growth and
                         performance with detailed analytics and progress
-                        reports. We'll help you understand your viewers'
+                        reports. We&apos;ll help you understand your viewers&apos;
                         behavior and adjust your strategy accordingly.
                       </p>
                     </div>
@@ -344,7 +344,7 @@ function youtubeseo() {
 
                   <p className="font-light">
                     Contact Dawood Proud today to schedule a consultation, and
-                    let's work together to optimize your YouTube channel for
+                    let&apos;s work together to optimize your YouTube channel for
                     greater visibility, engagement, and profitability.
                   </p>
                 </div>
