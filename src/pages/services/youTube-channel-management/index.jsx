@@ -68,7 +68,7 @@ function youtubeseo() {
         </title>
         <meta
           name="description"
-          content="Elevate your channel's performance by hiring our YouTube Channel Manager. Optimize, Engage & Succeed"
+          content="Elevate your channel&apos;s performance by hiring our YouTube Channel Manager. Optimize, Engage & Succeed"
         />
         <meta
           name="keywords"
@@ -208,7 +208,7 @@ function youtubeseo() {
                     <p>
                       These keywords fuel our content brainstorming sessions. We
                       curate content ideas that resonate with your audience and
-                      align with your channel's objectives.
+                      align with your channel&apos;s objectives.
                     </p>
 
                     <h3
@@ -244,10 +244,10 @@ function youtubeseo() {
                       Script Audits
                     </h3>
                     <p>
-                      Your content's script plays a crucial role in viewer
+                      Your content&apos;s script plays a crucial role in viewer
                       engagement. We offer script audits to ensure your content
                       is well-structured, engaging, and aligns with your
-                      channel's goals.
+                      channel&apos;s goals.
                     </p>
 
                     <h3
@@ -270,11 +270,11 @@ function youtubeseo() {
                       Analytics and Reporting
                     </h3>
                     <p>
-                      Throughout our engagement, you'll receive detailed
+                      Throughout our engagement, you&apos;ll receive detailed
                       analytics and reporting. These insights into video
                       performance, audience demographics, and engagement metrics
                       guide our decision-making process and help track your
-                      channel's progress.
+                      channel&apos;s progress.
                     </p>
 
                     <h2
@@ -285,7 +285,7 @@ function youtubeseo() {
                     </h2>
                     <p>
                       Our goal is to transform your channel into a thriving
-                      online community. Whether you're looking to increase
+                      online community. Whether you&apos;re looking to increase
                       subscribers, boost revenue, or enhance viewer engagement,
                       our team of experienced YouTube experts is here to help
                       you achieve your goals.
