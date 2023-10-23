@@ -328,7 +328,7 @@ function youtubeseo() {
                     </p>
                   </div>
 
-                  <ConsultButton />
+                  <ConsultButton text="Elevate your YouTube Game"/>
                 </div>
               </div>
             </div>

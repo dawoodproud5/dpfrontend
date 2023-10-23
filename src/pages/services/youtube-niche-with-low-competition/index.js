@@ -316,11 +316,11 @@ function youtubeseo() {
                       and let&apos;s find your YouTube Niche together!
                     </p>
                   </div>
-                  <ConsultButton />
+                 
                 </div>
               </div>
             </div>
-            <ConsultButton />
+            <ConsultButton text="Get started today"/>
           </div>
         </div>
         <div className="w-full">

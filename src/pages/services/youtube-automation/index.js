@@ -138,9 +138,9 @@ function youtubeseo() {
                     <p>
                       In today&apos;s fast-paced digital world, maintaining a
                       successful YouTube channel can be a challenging task.
-                      That&apos;s where our YouTube Automation Services come into
-                      play. We&apos;re here to help you grow your channel, increase
-                      your visibility, and save you time and effort.
+                      That&apos;s where our YouTube Automation Services come
+                      into play. We&apos;re here to help you grow your channel,
+                      increase your visibility, and save you time and effort.
                     </p>
                   </div>
                 </div>
@@ -153,13 +153,15 @@ function youtubeseo() {
                   >
                     Our 8 Step YouTube Automation Process
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px]  !font-light leading-[32.4px]]">
-                    At Dawood Proud, we&apos;ve meticulously crafted a comprehensive
-                    8-step YouTube Automation Process to ensure your channel&apos;s
-                    success. With our expert guidance and dedication, you&apos;ll see
-                    your YouTube channel grow like never before.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px]  font-light leading-[32.4px]  font-Inter space-y-4">
+                    <p>
+                      At Dawood Proud, we&apos;ve meticulously crafted a
+                      comprehensive 8-step YouTube Automation Process to ensure
+                      your channel&apos;s success. With our expert guidance and
+                      dedication, you&apos;ll see your YouTube channel grow like
+                      never before.
+                    </p>
+                  </div>
                   <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
                     <div className="mb-4">
                       <h3
@@ -246,10 +248,10 @@ function youtubeseo() {
                         YouTube Video SEO
                       </h3>
                       <p>
-                        To optimize your video&apos;s performance, we employ advanced
-                        YouTube Video SEO techniques. From crafting compelling
-                        titles, descriptions, and tags to optimizing for search
-                        algorithms, we take care of it all.
+                        To optimize your video&apos;s performance, we employ
+                        advanced YouTube Video SEO techniques. From crafting
+                        compelling titles, descriptions, and tags to optimizing
+                        for search algorithms, we take care of it all.
                       </p>
                     </div>
 
@@ -266,26 +268,26 @@ function youtubeseo() {
                         uploads for maximum impact, engaging with your audience,
                         and monitoring your channel&apos;s overall performance.
                       </p>
-                    </div>
 
-                    <div className="mb-4">
-                      <h3
-                        id="audience_engagement"
-                        className="text-lg md:text-xl font-bold font-Factor_A"
-                      >
-                        Audience Engagement
-                      </h3>
-                      <p>
-                        In the final step, we work on fostering a strong
-                        community around your channel. Engaging with your
-                        audience through comments, likes, and responses is
-                        crucial for building a loyal following. We&apos;ll help you
-                        strategize and execute effective community engagement
-                        campaigns to connect with your viewers on a deeper
-                        level.
-                      </p>
+                      <div className="mb-4">
+                        <h3
+                          id="audience_engagement"
+                          className="text-lg md:text-xl font-bold font-Factor_A"
+                        >
+                          Audience Engagement
+                        </h3>
+                        <p>
+                          In the final step, we work on fostering a strong
+                          community around your channel. Engaging with your
+                          audience through comments, likes, and responses is
+                          crucial for building a loyal following. We&apos;ll
+                          help you strategize and execute effective community
+                          engagement campaigns to connect with your viewers on a
+                          deeper level.
+                        </p>
+                      </div>
                     </div>
-                    <ConsultButton />
+                    <ConsultButton text="Get started today" />
                   </div>
                 </div>
               </div>

@@ -310,7 +310,7 @@ function youtubeseo() {
                     thrive.
                   </p>
                 </div>
-                <ConsultButton />
+                <ConsultButton text="Dominate YouTube Search Now"/>
               </div>
             </div>
           </div>

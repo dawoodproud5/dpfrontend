@@ -131,7 +131,7 @@ function youtubeseo() {
               </div>
               <div className="w-[100%] h-[200px] sm:h-[200px] lg:h-[250px] relative sm:col-start-9 sm:col-span-2 mb-4">
                 <Image
-                  src="/Images/Services/YouTube Channel Optimization.png"
+                  src="/Images/Services/YouTube Channel Optimization Services.png"
                   fill
                   alt="youtube-channel-optimization"
                   className="object-contain"
@@ -163,15 +163,7 @@ function youtubeseo() {
                     </p>
                   </div>
 
-                  <div className="flex flex-col justify-center items-start gap-12">
-                    <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold  my-8">
-                      Why Choose Our YouTube Channel Optimization Service?
-                    </h3>
-                    {/* <p>
-                      Discover the benefits of our comprehensive YouTube
-                      Automation Services:
-                    </p> */}
-                  </div>
+                 
                 </div>
 
                 {/* all the content starts here... */}
@@ -182,13 +174,14 @@ function youtubeseo() {
                   >
                     Why YouTube Channel Optimization Matters
                   </h2>
-                  <p className="!font-light">
+                 
+
+                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
+                  <p>
                     YouTube is a dynamic and competitive platform, and standing
                     out from the crowd can be challenging. A well-optimized
                     channel can make all the difference:
                   </p>
-
-                  <div className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] mt-4 font-Inter space-y-4">
                     <div className="mb-4">
                       <h3
                         id="enhanced_visibility"
@@ -340,17 +333,18 @@ function youtubeseo() {
                         monetization strategy services.
                       </p>
                     </div>
-                  </div>
-
-                  <p className="font-light">
+                    <p className="font-light">
                     Contact Dawood Proud today to schedule a consultation, and
                     let&apos;s work together to optimize your YouTube channel for
                     greater visibility, engagement, and profitability.
                   </p>
+                  </div>
+
+                  
                 </div>
               </div>
             </div>
-            <ConsultButton />
+            <ConsultButton text="Skyrocket Your Profits Today →" />
           </div>
         </div>
         <div className="w-full">

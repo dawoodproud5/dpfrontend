@@ -219,7 +219,7 @@ function YoutubeConsutation() {
                     first step towards YouTube growth and schedule a
                     consultation today!
                   </p>
-                  <ConsultButton />
+                  <ConsultButton text="Let's get started"/>
                 </div>
               </div>
             </div>

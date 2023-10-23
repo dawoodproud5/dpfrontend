@@ -156,19 +156,17 @@ export default function App() {
         </h2>
 
         <Swiper
-          spaceBetween={25}
-          // centeredSlides={true}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
           speed={2000}
-          loop={true}
-          // pagination={{
-          //   clickable: false,
-          // }}
-          navigation={false}
-          modules={[Autoplay]}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: true,
+          }}
+          disabled={true}
+          autoPlay={true}
+          // loop={true}
+          modules={[Autoplay, Pagination]}
+          slidesPerView={1}
+          spaceBetween={25}
           // loopPreventsSliding={true}
           // loopedSlides={true}
           breakpoints={{

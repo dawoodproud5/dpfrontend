@@ -17,7 +17,7 @@ function Hero() {
       </div>
 
       {/* hero section text and images div */}
-      <div className="w-full max-w-[1200px] flex flex-col justify-center items-center py-4  ">
+      <div className="w-full max-w-[1200px] flex flex-col justify-center items-center py-6  ">
         <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full mt-20 xl:mt-12 md:py-16 xl:py-8 ">
           <div className="  w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
             {/* hero section text */}
@@ -64,8 +64,8 @@ function Hero() {
               className="object-contain"
             />
           </div>
-          <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4 xl:col-start-8 xl:col-span-7">
-            <div className="flex flex-col justify-start items-center">
+          <div className="grid grid-cols-1 justify-center items-center space-y-2 mt-16 xl:col-start-8 xl:col-span-7">
+            <div className="flex flex-col justify-start items-center ">
               <p className="text-white font-bold font-Inter tracking-widest text-[18px] sm:text-[20px]">
                 PUSH YOUR CHANNEL TO THE
               </p>
