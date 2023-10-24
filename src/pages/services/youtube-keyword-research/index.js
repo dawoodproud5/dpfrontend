@@ -138,11 +138,11 @@ function youtubeseo() {
 
         <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
           {/* sidebar here  */}
-          <div className="mx-5   md:col-span-3 mt-6 ">
+          {/* <div className="mx-5   md:col-span-3 mt-6 ">
             <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
-          </div>
+          </div> */}
           <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <h1 className="font-Inter font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">

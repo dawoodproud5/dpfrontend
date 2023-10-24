@@ -14,8 +14,8 @@ function ServiceCards() {
       <YtSlider />
       <ServiceCard
         heading={"Certified YouTube Consultant"}
-        heading2={`Unlock Your YouTube  Potential with a Certified YouTube Strategist`}
-        para={`Get a comprehensive channel evaluation and Tailored Content Strategy that help you unlock the secrets to YouTube Channel Growth , connect with your audience, and build your brand on this exciting platform. Ready to take your channel to new heights? `}
+        heading2={`Get Free Consultation with YouTube Experts`}
+        para={`Elevate your YouTube journey with our Certified YouTube Consultation. Get personalized guidance and tailored content strategy for channel growth and success. `}
         btntext={`Let${"'"}s get started`}
         link={"/services/youtube-consultation"}
         images={"/Images/Services/YouTube Consultation.svg"}
@@ -23,15 +23,15 @@ function ServiceCards() {
       />
 
       <ServiceCard
-        heading={"YouTube SEO"}
-        heading2={"Supercharge Your Videos with YouTube SEO Services"}
-        para={`Get Your Videos Ranked on YouTube Search Results to drive consistent traffic and engaged subscribers. Optimize your videos with winning strategies to dominate the world${"'"}s second-largest search engine.`}
+        heading={"YouTube SEO Services"}
+        heading2={"Get Videos Ranked in YouTube Search Results"}
+        para={`Gain a competitive edge in the crowded world of YouTube by ranking your videos to the top of YouTube search results for higher visibility and viewer engagement.`}
         btntext={"Dominate YouTube Search Now"}
         bgColor={""}
         link={"/services/youtube-seo"}
-        images={"/Images/Services/YouTube_SEO Service.png"}
+        images={"/Images/Services/YouTube SEO sevice.svg"}
       />
-
+      {/* 
       <ServiceCard
         heading={"YouTube Content Creation"}
         heading2={
@@ -42,12 +42,12 @@ function ServiceCards() {
         bgColor={""}
         link={"/services/youtube-video-production"}
         images={"/Images/Services/YouTube Content Creation.png"}
-      />
+      /> */}
 
       <ServiceCard
         heading={"YouTube Keywords Research"}
-        heading2={"Crush the Competition with Winning YouTube Keywords"}
-        para={`Boost your YouTube channel${"'"}s organic growth and visibility by using winning keywords having high search volume, low competition, and rising trends.`}
+        heading2={"Get Consist Views & Engaged Subscribers"}
+        para={`Boost your channel${"'"}ss visibility and growth by Targeting the right keywords that will make your videos stand out in search results and recommendations.`}
         btntext={"Elevate your YouTube Game"}
         bgColor={""}
         link={"/services/youtube-keyword-research"}
@@ -56,9 +56,9 @@ function ServiceCards() {
 
       {/* Automated  */}
       <ServiceCard
-        heading={"YouTube Automation"}
+        heading={"YouTube Automation Services"}
         heading2={"Earn passive income with Faceless YouTube videos."}
-        para={`Start your Faceless Automated YouTube channel with our YouTube Automation Services! From niche selection to channel setup, faceless video creation, and channel management, we${"'"}ve got you covered.`}
+        para={`Grow your channel Hands-Free, because from niche selection to channel setup, to faceless video creation, and channel management, we've got you covered.`}
         btntext={"Get started today"}
         bgColor={""}
         link={"/services/youtube-automation"}
@@ -67,11 +67,9 @@ function ServiceCards() {
 
       {/* YouTube niche selection */}
       <ServiceCard
-        heading={"YouTube Niches "}
-        heading2={
-          "Get YouTube Niches with Low Competition for Your Target Audience"
-        }
-        para={`Uncover profitable YouTube Automation Niches with low competition and Niches for YouTube Shorts that perfectly align with your target audience.`}
+        heading={"YouTube Niche Research"}
+        heading2={"Get Low Competition & Profitable Niches"}
+        para={`Your YouTube journey begins with niche selection. We guide you to discover niches tailored to your audience, ensuring low competition and high growth potential.`}
         btntext={"Get started today"}
         bgColor={""}
         link={"/services/youtube-niche-with-low-competition"}
@@ -82,10 +80,8 @@ function ServiceCards() {
 
       <ServiceCard
         heading={"YouTube Channel Optimization"}
-        heading2={
-          "YouTube Channel Optimization Service to Enhance Organic Growth & Visibility"
-        }
-        para={`Boost your YouTube channel${"'"}s organic visibility and rankings with our expert YouTube Optimization Service. Unlock the power of organic reach & Engagement on the Channel.`}
+        heading2={"Boost Organic Growth & Visibility"}
+        para={`Improve search engine rankings, organic reach, viewer engagement, branding, and monetization opportunities.`}
         btntext={"Skyrocket Your Profits Today"}
         bgColor={""}
         link={"/services/youtube-channel-optimization"}
@@ -93,11 +89,9 @@ function ServiceCards() {
       />
 
       <ServiceCard
-        heading={"YouTube Channel Management"}
-        heading2={
-          "YouTube Management Agency: Your Success Partner"
-        }
-        para={`Boost your YouTube channel${"'"}s organic visibility and rankings with our expert YouTube Management Services. Unlock the power of organic reach & Engagement on the Channel.`}
+        heading={"YouTube Channel Management Services"}
+        heading2={"Take Your Channel to the Next Level"}
+        para={`Maximize subscribers, boost revenue, and elevate viewer engagement with our tailored services. Let our YouTube experts guide you to success with a customized strategy.`}
         btntext={"Skyrocket Your Profits Today"}
         bgColor={""}
         link={"/services/youTube-channel-management"}

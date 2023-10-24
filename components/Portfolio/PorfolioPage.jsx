@@ -115,7 +115,7 @@ function PorfolioPage() {
                         para={`Thanks to my incredible Content Ideas Guru Dawood, because of him, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! With ${'@Dawoodproud'} and his team${"'"}s help, I${"'"}ve been able to take my content to the next level and provide my viewers with high-quality, engaging videos that keep them coming back for more. Their ability to understand my niche and provide me with unique and creative ideas has been invaluable. I${"'"}m so grateful for their expertise and support!`}
                         likes="9,781"
                         img="/Images/Portfolio/InstaDP/zhc.jpg"
-                        post="/Images/Portfolio/Instapost/post1.jpg"
+                        post="/Images/Portfolio/Instapost/post2.jpg"
                         followers="3.4M"
                         comments="149"
                     />
