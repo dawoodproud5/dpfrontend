@@ -10,7 +10,7 @@ function WhatsAppFloatingButton() {
     <>
       {router.pathname !== "/admindashboard" && (
         <FloatingWhatsApp
-          phoneNumber={"+923270075555"}
+          phoneNumber={"+44730510775"}
           accountName={"Dawood Proud"}
           statusMessage={"Typically replies instantly during work hours."}
           chatMessage={`Hi There 👋 \nHow can we help you?`}
