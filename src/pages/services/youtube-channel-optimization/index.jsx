@@ -74,7 +74,7 @@ function youtubeseo() {
   ];
   
   return (
-    <div className="">
+    <>
       <Head>
         <title>
           YouTube Channel Optimization Service to Maximize Organic Visibility &
@@ -351,7 +351,7 @@ function youtubeseo() {
           <Footer />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

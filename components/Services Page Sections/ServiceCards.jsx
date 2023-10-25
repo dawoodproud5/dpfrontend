@@ -22,15 +22,17 @@ function ServiceCards() {
         bgColor={""}
       />
 
+      {/* YouTube niche selection */}
       <ServiceCard
-        heading={"YouTube SEO Services"}
-        heading2={"Get Videos Ranked in YouTube Search Results"}
-        para={`Gain a competitive edge in the crowded world of YouTube by ranking your videos to the top of YouTube search results for higher visibility and viewer engagement.`}
-        btntext={"Dominate YouTube Search Now"}
+        heading={"YouTube Niche Research"}
+        heading2={"Get Low Competition & Profitable Niches"}
+        para={`Your YouTube journey begins with niche selection. We guide you to discover niches tailored to your audience, ensuring low competition and high growth potential.`}
+        btntext={"Get started today"}
         bgColor={""}
-        link={"/services/youtube-seo"}
-        images={"/Images/Services/YouTube SEO sevice.svg"}
+        link={"/services/youtube-niche-with-low-competition"}
+        images={"/Images/Services/YouTube Niches with Low Competition.svg"}
       />
+
       {/* 
       <ServiceCard
         heading={"YouTube Content Creation"}
@@ -54,6 +56,16 @@ function ServiceCards() {
         images={"/Images/Services/YouTube Keywords Research.png"}
       />
 
+      <ServiceCard
+        heading={"YouTube SEO Services"}
+        heading2={"Get Videos Ranked in YouTube Search Results"}
+        para={`Gain a competitive edge in the crowded world of YouTube by ranking your videos to the top of YouTube search results for higher visibility and viewer engagement.`}
+        btntext={"Dominate YouTube Search Now"}
+        bgColor={""}
+        link={"/services/youtube-seo"}
+        images={"/Images/Services/YouTube SEO sevice.svg"}
+      />
+
       {/* Automated  */}
       <ServiceCard
         heading={"YouTube Automation Services"}
@@ -63,17 +75,6 @@ function ServiceCards() {
         bgColor={""}
         link={"/services/youtube-automation"}
         images={"/Images/Services/YouTube Automation.svg"}
-      />
-
-      {/* YouTube niche selection */}
-      <ServiceCard
-        heading={"YouTube Niche Research"}
-        heading2={"Get Low Competition & Profitable Niches"}
-        para={`Your YouTube journey begins with niche selection. We guide you to discover niches tailored to your audience, ensuring low competition and high growth potential.`}
-        btntext={"Get started today"}
-        bgColor={""}
-        link={"/services/youtube-niche-with-low-competition"}
-        images={"/Images/Services/YouTube Niches with Low Competition.svg"}
       />
 
       {/* channle optimization */}
