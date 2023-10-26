@@ -17,7 +17,7 @@ function careers() {
     },
     {
       label: "Jobs",
-      link: "/jobs",
+      link: "/careers",
     },
     {
       label: "Logo Kit",

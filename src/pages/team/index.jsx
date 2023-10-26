@@ -19,7 +19,7 @@ const tabs = [
   },
   {
     label: "Jobs",
-    link: "/jobs",
+    link: "/careers",
   },
   {
     label: "Logo Kit",

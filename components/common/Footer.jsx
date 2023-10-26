@@ -81,7 +81,7 @@ function Footer() {
                 </div>
                 <div className="flex flex-col items-start space-y-3 text-white text-opacity-90 ">
                   <Link href="/contact-us">Contact</Link>
-                  <Link href="/jobs">Jobs</Link>
+                  <Link href="/careers">Jobs</Link>
                   <Link href="/team">Team</Link>
                   <Link href="/legal-info">Privacy</Link>
                   <Link href="/contact-us">Support</Link>
