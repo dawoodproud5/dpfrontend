@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import JobClosedBtn from "../../../components/JobsTab/JobClosedPop";
 import HiringRecruttie from "../../../components/JobsTab/HiringRecruttie";
+import Head from "next/head";
 function careers() {
   const tabs = [
     {
@@ -23,8 +24,8 @@ function careers() {
       link: "/jobs",
     },
     {
-      label: "Media Kit",
-      link: "/media-kit",
+      label: "Logo Kit",
+      link: "/logo-kit",
     },
     {
       label: "Legal Info",
@@ -134,37 +135,46 @@ function careers() {
 
   return (
     <>
+      <Head>
+        <title>Careers at Dawood Proud - Where You Can Truly Stand Out</title>
+        <meta
+          name="description"
+          content="Join Dawood Proud Agency and experience a workplace that encourages creativity, innovation, and personal growth."
+        />
+      </Head>
       <div className="w-full  font-Inter text-white bg-white min-h-screen h-full">
         <div className="w-full bg-white text-[black]">
           <Navbar bg_color={"white"} />
         </div>
 
-        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  bg-[#001b47]">
-          <div className=" text-white md:col-start-2 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
-            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl ">
-              <span className="text-[#01b88d]">First do it, </span>
-              <br />
-              then do it right,
-              <br />
-              then do it better.
-            </h1>
-          </div>
-          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-8N md:col-span-3 mb-4">
-            <Image
-              src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
-              fill
-              alt="youtube-niche-with-low-competition"
-              className="object-contain"
-            ></Image>
+        <div className="bg-[#001b47] w-full">
+          <div className="grid grid-cols-2  md:grid-cols-12  justify-center items-center mx-auto  w-full min-h-[400px]  max-w-[1200px] px-3 ">
+            <div className=" text-white md:col-start-3 md:col-span-5  text-left mt-8 xl:mt-1 ">
+              <h1 className="text-[20px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl ">
+                <span className="text-[#01b88d]">First do it, </span>
+                <br />
+                then Do it Right,
+                <br />
+                then Do it Better.
+              </h1>
+            </div>
+            <div className="w-[100%] h-[110px] md:h-[200px] lg:h-[230px] relative md:col-start-8 md:col-span-3 mt-4">
+              <Image
+                src="/Images/ServicesheroSVGs/youtube-team.png"
+                fill
+                alt="careerdawodproud"
+                className="object-contain"
+              ></Image>
+            </div>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-center items-start max-w-[1200px] space-y-10  mx-auto mb-24">
-          <div className="ml-[4%] md:ml-[8%] lg:ml-[8%] ">
+        <div className="grid grid-cols-1  md:grid-cols-12 w-full  max-w-[1200px] space-y-10  mx-auto mb-24">
+          <div className="md:col-start-3 md:col-span-8">
             <Tab tabs={tabs} />
           </div>
 
           <hr className="w-[30%]" />
-          <div className="flex flex-col justify-center items-center text-[#333333] font-Inter mt-6 gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[12%] p-6">
+          <div className="flex flex-col justify-start items-center text-[#333333] font-Inter mt-6 gap-2 mx-auto  p-6  md:col-start-3 md:col-span-8">
             <div className="flex flex-col justify-center items-start gap-3 w-full self-start">
               <h2 className="font-semibold  text-[24px] md:text-[28px] text-center sm:text-left">
                 Why Work at Dawood Proud Agency?
@@ -202,13 +212,13 @@ function careers() {
               ></Image>
             </div>
           </div>
-          <div className="mx-auto flex flex-col justify-start items-start gap-12 mb-6  md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3">
-            <div className="">
+          <div className="mx-auto flex flex-col justify-start items-start gap-12 mb-6 max-w-[900px] p-3 md:col-start-3 md:col-span-9">
+            <div className="justify-start">
               <h3 className="text-[black] text-[24px] sm:text-[32px] md:text-[44px] font-semibold">
                 Open positions
               </h3>
             </div>
-            <div className="text-[black] max-w-[600px]">
+            <div className="text-[black] max-w-[600px] self-start">
               <div className="border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center px-3 md:px-3 py-3 md:py-6 shadow-md">
                 <div className="flex flex-col ">
                   <p className="text-[16px] md:text-[20px] font-semibold">
@@ -230,7 +240,7 @@ function careers() {
               </div>
             </div>
           </div>
-          <div className="mx-auto flex flex-col justify-start items-start gap-12   md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3 ">
+          <div className="mx-auto flex flex-col justify-start items-start gap-12 max-w-[900px] p-3  md:col-start-3 md:col-span-9">
             <h3 className="text-[black] text-[24px] sm:text-[32px] md:text-[44px] font-semibold">
               Upcoming positions
             </h3>
@@ -259,7 +269,7 @@ function careers() {
             </div>
           </div>
 
-          <div className="mx-auto flex flex-col justify-start items-start gap-12   md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3 ">
+          <div className="mx-auto flex flex-col justify-start items-start gap-12 max-w-[900px] p-3  md:col-start-3 md:col-span-9">
             <h3 className="text-[black] text-[24px] sm:text-[32px] md:text-[44px] font-semibold">
               Closed positions
             </h3>

@@ -74,7 +74,7 @@ function ClientsResult() {
 
           <div className="flex flex-col justify-start items-start py-4">
             <h2 className="text-[32px] font-bold pr-2">
-              Doubled Sales Overnight
+              Doubled Sales in a month 
             </h2>
             <p className="font-Montserrat text-[18px] font-light italic text-[gray] py-12">
               “I’m already a full-time creator and these concepts quickly

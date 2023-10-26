@@ -21,8 +21,8 @@ function LegalInfo() {
             link: "/jobs"
         },
         {
-            label: "Media Kit",
-            link: "/media-kit"
+            label: "Logo Kit",
+            link: "/logo-Kit"
         },
         {
             label: "Legal Info",

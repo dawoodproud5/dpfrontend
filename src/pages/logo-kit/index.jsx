@@ -23,8 +23,8 @@ function MediaKit() {
             link: "/jobs"
         },
         {
-            label: "Media Kit",
-            link: "/media-kit"
+            label: "Logo Kit",
+            link: "/logo-kit"
         },
         {
             label: "Legal Info",
