@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 function ContactCard() {
   function handleButtonClick() {
     window.open(
-      "https://wa.me/+44 7308 510775?text=Hi,%20how%20can%20we%20help%20you%3F",
+      "https://wa.me/+447308510775?text=Hi,%20how%20can%20we%20help%20you%3F",
       "_blank"
     );
   }
