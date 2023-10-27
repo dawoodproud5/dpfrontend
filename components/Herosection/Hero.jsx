@@ -21,31 +21,31 @@ function Hero() {
         <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full mt-20 xl:mt-12 md:py-16 xl:py-8 ">
           <div className="  w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
             {/* hero section text */}
-            <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto ">
-              <div className="flex flex-col justify-center xl:justify-start items-center xl:items-start  xl:-space-y-3 ">
-                <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[50px] lg:text-[60px] ">
+            <div className=" flex flex-col justify-start items-start mx-auto px-5">
+              <div className="flex flex-col justify-start items-start  xl:-space-y-3 ">
+                <h1 className=" font-extrabold text-[36px] sm:text-[36px] md:text-[50px] lg:text-[62px] ">
                   Dawood Proud
                 </h1>
-                <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#01b88d]">
+                <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#007aff]">
                   {" "}
                   Stand Out from Crowd
                 </h1>
               </div>
-              <div className="text-center xl:text-left font-medium md:font-semibold px-4 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
+              <div className=" text-left font-medium md:font-semibold  sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
                 <p>
                   {" "}
                   Ultimate Destination for all YouTube Growth Services to take
                   your channel to new heights.
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <Link href={"/consultation"} className="text-sm ">
                   <button className="flex justify-center items-center px-4 py-2  rounded-2xl  font-bold text-white button mt-3 ">
                     Let&#39;s Start
                     <BsArrowRightShort size={25} />
                   </button>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* hero sign up starts here */}
@@ -56,7 +56,7 @@ function Hero() {
 
         {/* last section of the herosection */}
         <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full   mb-8 xl:mb-12 max-w-[1200px]">
-          <div className="relative h-[220px]   sm:h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
+          <div className="relative h-[300px]   sm:h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5 mb-10">
             <Image
               src="/Images/herosection/Landing_page_Image.png"
               fill

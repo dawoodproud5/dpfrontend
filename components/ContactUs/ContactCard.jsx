@@ -2,7 +2,7 @@ import Image from "next/image";
 import { BsFillChatRightDotsFill } from "react-icons/bs";
 import React, { useEffect } from "react";
 
-function ContactCard() {
+function  ContactCard() {
   function handleButtonClick() {
     window.open(
       "https://wa.me/+447308510775?text=Hi,%20how%20can%20we%20help%20you%3F",
@@ -26,7 +26,7 @@ function ContactCard() {
             </p>
           </div>
           <div>
-            <p>For Any Complaints, Email Us at</p>
+            <p>For Any Complaint, Email Us at</p>
             <p className="text-[#139dff] font-normal">
               complaints@dawoodproud.com
             </p>
@@ -48,7 +48,7 @@ function ContactCard() {
             <p>Chat now</p>
           </button>
           <div>
-            <p>
+            <p className="font-normal">
               Hours: 9 AM to 5 PM <br /> Monday to Saturday <br /> GMT+1 <br /> British Standard
               Time (BST)
             </p>

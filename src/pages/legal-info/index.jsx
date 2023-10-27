@@ -40,7 +40,7 @@ function LegalInfo() {
             <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  bg-[#001b47]">
                 <div className=" text-white md:col-start-3 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
                     <h1 className='text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl '>
-                        <span className="text-[#01b88d]">  Legal Information </span>
+                        <span className="text-[#007aff]">  Legal Information </span>
 
                         <br />Data Protection Policy
 

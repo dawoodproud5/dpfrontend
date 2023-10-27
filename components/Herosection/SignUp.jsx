@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -53,6 +53,9 @@ const SignupForm = () => {
         toast.success("Sign Up Successful");
         blankInput();
         router.push("/");
+        toast.error(
+          "Sorry, You are Not Registered as Customer in our Database"
+        );
       })
       .catch((err) => {
         setOpen(false);

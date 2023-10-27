@@ -151,7 +151,7 @@ function careers() {
           <div className="grid grid-cols-2  md:grid-cols-12  justify-center items-center mx-auto  w-full min-h-[400px]  max-w-[1200px] px-3 ">
             <div className=" text-white md:col-start-3 md:col-span-5  text-left mt-8 xl:mt-1 ">
               <h1 className="text-[20px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl ">
-                <span className="text-[#01b88d]">First do it, </span>
+                <span className="text-[#007aff]">First do it, </span>
                 <br />
                 then Do it Right,
                 <br />

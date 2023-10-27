@@ -93,8 +93,12 @@ function Footer() {
             <div className="font-bold mb-2 md:mb-3 text-[#01b88d]">
               Connect with us
             </div>
-            <div className="leading-5 text-white text-opacity-90">
-              Call Sales +44 7308 510775
+            <div className="leading-5 text-white text-opacity-90 space-y-2">
+              <p>Call Team DP +44 7308 510775</p>
+              <p>
+                9am to 5pm GMT +1 <br />
+                (British Standard Time){" "}
+              </p>
             </div>
             <div className="mt-4 flex items-center space-x-4">
               <Link
@@ -135,7 +139,9 @@ function Footer() {
             <div className="xl:col-span-7 font-Inter text-[14px] text-center xl:text-left">
               <p>
                 Dawood Proud Ltd ® 2018-2023 | Celebrating 5+ Years of YouTube
-                Marketing Excellence <br />Office 3, Unit 3A, Hatton Garden Holborn EC1N London, United Kingdom
+                Marketing Excellence <br />
+                Office 3, Unit 3A, Hatton Garden Holborn EC1N London, United
+                Kingdom
               </p>
               <p>
                 <Link href={"/legal-info"}>Privacy & Terms of Use</Link>

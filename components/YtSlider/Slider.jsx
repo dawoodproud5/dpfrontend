@@ -129,7 +129,7 @@ const YtSlider = () => {
           <Swiper
             speed={2000}
             autoplay={{
-              delay: 1500,
+              delay: 1200,
               disableOnInteraction: true,
             }}
             disabled={true}

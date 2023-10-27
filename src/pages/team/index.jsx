@@ -49,7 +49,7 @@ function TeamPage() {
           <div className="grid grid-cols-2  md:grid-cols-12  justify-center items-center mx-auto  w-full min-h-[400px]  max-w-[1200px]">
             <div className=" text-white md:col-start-2 md:col-span-5 flex flex-col items-center justify-center text-left mt-8 xl:mt-1">
               <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl ">
-                <span className="text-[#01b88d]"> We Think Big, </span>
+                <span className="text-[#007aff]"> We Think Big, </span>
                 <br />
                 Start Small,
                 <br />
