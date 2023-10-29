@@ -36,7 +36,7 @@ function careers() {
   const tabs2 = [
     {
       label: "Job details",
-      link: "/job-details",
+      link: "/careers-details",
     },
     {
       label: "Apply",
@@ -46,16 +46,16 @@ function careers() {
   const jobsClosed = [
     {
       Job: "YouTube Growth Strategists",
-      Location: "May 2023 • In-Office • G-11, Islamabad",
+      Location: "May 2023 • In-Office ",
     },
     {
       Job: "Multimedia Designers",
       Location:
-        "March 2023 • In-Office • G-11/2, Sachal Sarmast Road, Islamabad",
+        "March 2023 • In-Office ",
     },
     {
       Job: "Corporate Video Editors",
-      Location: "January 2023 • In-Office • G-11/2, Islamabad",
+      Location: "January 2023 • In-Office ",
     },
     {
       Job: "Graphic Designers",
@@ -63,12 +63,12 @@ function careers() {
     },
     {
       Job: "Content Writer",
-      Location: "Jan 2022 • In-Office • G-11, Islamabad",
+      Location: "Jan 2022 • In-Office ",
     },
 
     {
       Job: "Multimedia Designers",
-      Location: "December 2022 • In-Office • G-11, Islamabad",
+      Location: "December 2022 ",
     },
     {
       Job: "Commercial Video Editors",
@@ -102,25 +102,19 @@ function careers() {
       Job: "Video Content Creator",
       Location: "December 2021 • Remote",
     },
-  ];
-
-  const UpcomingJobs = [
     {
       Job: "Content Writer",
-      Location: "June 2023 • In-Office • G-11/2, Islamabad",
+      Location: "June 2023 ",
     },
-    {
-      Job: "Sales Specialist",
-      Location: "June 2023 • In-Office • G-11, Islamabad",
-    },
+    
     {
       Job: "Voice-Over Artist (Male, Urdu) ",
-      Location: "June 2023 • Remote",
+      Location: "June 2023 ",
     },
     {
       Job: "Video Editors",
       Location:
-        "June 2023 • In-Office • G-11/2, Sachal Sarmast Road, Islamabad",
+        "June 2023 • In-Office ",
     },
 
     {
@@ -129,7 +123,14 @@ function careers() {
     },
     {
       Job: "Video Content Creator",
-      Location: "July 2023 • In-Office / Remote • G-11, Islamabad",
+      Location: "July 2023 • In-Office ",
+    },
+  ];
+
+  const UpcomingJobs = [
+    {
+      Job: "YouTube Growth Strategists",
+      Location: "November 2023 • In-office",
     },
   ];
 
@@ -219,25 +220,25 @@ function careers() {
               </h3>
             </div>
             <div className="text-[black] max-w-[600px] self-start">
-              <div className="border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center px-3 md:px-3 py-3 md:py-6 shadow-md">
+              {/* <div className="border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center px-3 md:px-3 py-3 md:py-6 shadow-md">
                 <div className="flex flex-col ">
                   <p className="text-[16px] md:text-[20px] font-semibold">
                     YouTube Growth Strategists
                   </p>
                   <p className="text-[14px] md:text-[16px] font-normal">
-                    May 2023 • In-Office • G-11, Islamabad
+                    May 2023 • In-Office 
                   </p>
                 </div>
                 <div className="mx-auto ">
                   <Link
-                    href={"/job-details"}
+                    href={"/careers-details"}
                     type="button"
                     className="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-6 py-2 md:py-3  md:m-2  focus:outline-none focus:shadow-outline"
                   >
                     Apply Now
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mx-auto flex flex-col justify-start items-start gap-12 max-w-[900px] p-3  md:col-start-3 md:col-span-9">

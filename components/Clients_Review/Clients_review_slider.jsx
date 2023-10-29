@@ -151,7 +151,7 @@ export default function App() {
   return (
     <>
       <div className="flex flex-col justify-center items-center max-w-[1920px] w-full mx-auto">
-        <h2 className="py-16 max-w-[800px] font-bold text-[36px] md:text-[40px] text-center">
+        <h2 className="py-10 sm:py-12 md:py-16 max-w-[800px] font-extrabold text-[28px] md:text-[40px] text-left md:text-center px-3 sm:px-0">
           Endorsed by some of YouTube&apos;s Most Esteemed Content Creators
         </h2>
 

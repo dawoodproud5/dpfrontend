@@ -14,7 +14,7 @@ function FormStep1({ formData, nextStep, onChange, setFormData }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-6'>
             <div className='flex flex-col justify-between items-center gap-4 '>
-                <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
+                <h1 className='text-[12px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
                 <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '> <span className='text-[black]/80'>Let&#39;s get started...</span> What&#39;s your full name?</h2>
             </div>
             <label htmlFor="name"></label>

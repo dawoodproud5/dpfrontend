@@ -45,7 +45,7 @@ function FormStep3({ formData, onChange, nextStep, prevStep, setFormData }) {
                 <button type="button" onClick={prevStep} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
                     <FiArrowLeft size={30} />
                 </button>
-                <button type="button" onClick={nextStep} disabled={!YoutubeName} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
+                <button type="button" onClick={nextStep}  className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
                     <FiArrowRight size={30} />
                 </button>
 

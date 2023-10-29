@@ -39,12 +39,12 @@ function CunterSection() {
     }, []);
 
     return (
-        <div className='w-full grid grid-cols-1 lg:grid-cols-2 font-Inter max-w-[1100px] mx-auto min-h-screen justify-center items-start gap-12 py-20'>
-            <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 sm:px-0 mx-auto px-1 '>
-                <h2 className='text-[28px] md:text-[40px] font-extrabold text-center md:text-left leading-[42px] px-2 sm:px-0'>
+        <div className='w-full grid grid-cols-1 lg:grid-cols-2 font-Inter max-w-[1100px] mx-auto min-h-screen justify-center items-start gap-12 md:py-20'>
+            <div className='flex flex-col justify-start items-start space-y-4  mx-auto px-5 sm:px-1 '>
+                <h2 className='text-[28px] md:text-[40px] font-extrabold text-left leading-[42px] '>
                 Our YouTube Strategies Deliver Proven Results
                 </h2>
-                <p className='text-[18px] md:text-[24px] font-light text-[#554b4d] max-w-[80%] text-center md:text-left'>
+                <p className='text-[18px] md:text-[24px] font-light text-[#554b4d] md:max-w-[80%] text-left '>
                 In the world of YouTube where your channel is your livelihood, you need more than just ideas; you need data-backed, battle-tested strategies honed across thousands of channels.
                 </p>
                 <button className='flex justify-center items-center px-5 py-3 rounded-2xl bg-[#001b47] hover:bg-[#001b47] text-white font-bold gap-2'>

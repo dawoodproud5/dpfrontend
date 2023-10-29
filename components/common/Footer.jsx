@@ -136,7 +136,7 @@ function Footer() {
         {/* <hr className='w-full max-w-7xl text-[gray] h-full' /> */}
         <div className="bg-[#071324] w-full">
           <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center  mt-4  max-w-7xl mb-8 mx-auto ">
-            <div className="xl:col-span-7 font-Inter text-[14px] text-center xl:text-left">
+            <div className="xl:col-span-7 font-Inter text-[14px] text-left  px-5 sm:px-0">
               <p>
                 Dawood Proud Ltd ® 2018-2023 | Celebrating 5+ Years of YouTube
                 Marketing Excellence <br />

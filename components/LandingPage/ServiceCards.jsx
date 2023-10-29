@@ -42,7 +42,7 @@ function ServiceCards() {
                     para={`Collaborate to eliminate hurdles and fine-tune your YouTube content strategy, ensuring steady, sustainable & exponential YouTube Growth.`}
                     btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Channel Optimization.png"} />
 
-                <div className="py-24">
+                <div className="py-0 md:py-24">
                     <CounterSection />
                 </div>
 

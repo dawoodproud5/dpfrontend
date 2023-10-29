@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function ClientsResult() {
   return (
-    <div className="w-full flex flex-col justify-start items-start font-Inter p-12 max-w-[1300px] mx-auto ">
-      <h2 className="text-[40px] font-extrabold py-12">
+    <div className="w-full flex flex-col justify-start items-start font-Inter py-0 sm:p-8 md:py-12 max-w-[1300px] mx-auto ">
+      <h2 className="text-[28px] md:text-[40px] font-extrabold py-0 sm:p-8 md:py-12 px-5 sm:px-0">
         Delivering results is a core commitment for us
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-12">
@@ -24,10 +24,10 @@ function ClientsResult() {
           </div>
 
           <div className="flex flex-col justify-start items-start py-4">
-            <h2 className="text-[32px] font-bold pr-2">
+            <h2 className="text-[32px] font-bold px-5 sm:px-0">
               500K to 1.5 Million Views per Video
             </h2>
-            <p className="font-Montserrat text-[18px] font-light italic text-[gray] py-12">
+            <p className="font-Montserrat text-[18px] font-light italic text-[gray] py-8 md:py-12 px-5 sm:px-0">
               “With Dawood, I grew very fast on YouTube. After working with him,
               I actually understood how to create content that my audiences love
               to watch.”
@@ -47,7 +47,7 @@ function ClientsResult() {
             <h3 className="text-[14px] font-light text-[gray]">Law By Mike</h3>
           </div>
 
-          <div className="flex flex-col justify-start items-start py-4">
+          <div className="flex flex-col justify-start items-start py-4 px-5 sm:px-0">
             <h2 className="text-[32px] font-bold pr-2">
               100K to 1 Million Views per Video
             </h2>
@@ -72,7 +72,7 @@ function ClientsResult() {
             </h3>
           </div>
 
-          <div className="flex flex-col justify-start items-start py-4">
+          <div className="flex flex-col justify-start items-start py-4 px-5 sm:px-0">
             <h2 className="text-[32px] font-bold pr-2">
               Doubled Sales in a month 
             </h2>
