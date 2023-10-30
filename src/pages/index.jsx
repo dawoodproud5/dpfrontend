@@ -10,7 +10,7 @@ const Home = () => {
         </title>
         <meta
           name="google-site-verification"
-          content="google5bdab0d566274652.html"
+          content="2B1FTzHGBeq_4FzYn3LObtA4A6wn0qYT10y2y5_slQ8"
         />
         <meta
           name="description"
