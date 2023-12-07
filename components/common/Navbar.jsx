@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Router } from "next/router";
 // import component 👇
-import Drawer from "react-modern-drawer";
-import { Spin as Hamburger } from 'hamburger-react';// hamburger 
+// import Drawer from "react-modern-drawer";
+import Logo from "../../public/Images/herosection/DP_logo.png"
+import { Spin as Hamburger } from "hamburger-react"; // hamburger
 import { RxCross2 } from "react-icons/rx";
 // import { Sling as Hamburger } from 'hamburger-react'
 //import styles 👇
@@ -12,11 +13,12 @@ import "react-modern-drawer/dist/index.css";
 // assets
 import { IoMdArrowDropdown } from "react-icons/io";
 import { BsArrowRightShort } from "react-icons/bs";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
 import React, { useState } from "react";
 
 
+const Drawer = dynamic(() => import('react-modern-drawer'), { ssr: false });
 const navItems = [
   {
     id: 1,
@@ -33,31 +35,31 @@ const navItems = [
     dropdownItems: [
       {
         name: "YouTube Consultation",
-        path: "/services/youtube-consultation"
+        path: "/services/youtube-consultation",
       },
       {
         name: "YouTube SEO",
-        path: "/services/youtube-seo"
+        path: "/services/youtube-seo",
       },
       {
         name: "YouTube Content Creation",
-        path: "/services/youtube-video-production"
+        path: "/services/youtube-video-production",
       },
       {
         name: "YouTube Keyword Research",
-        path: "/services/youtube-keyword-research"
+        path: "/services/youtube-keyword-research",
       },
       {
         name: "YouTube Niche",
-        path: "/services/youtube-niche-with-low-competition"
+        path: "/services/youtube-niche-with-low-competition",
       },
       {
         name: "YouTube Automation",
-        path: "/services/youtube-automation"
+        path: "/services/youtube-automation",
       },
       {
         name: "YouTube Channel Optimization",
-        path: "/services/youtube-channel-optimization"
+        path: "/services/youtube-channel-optimization",
       },
       // {
       //   name: "YouTube Promotion",
@@ -76,9 +78,7 @@ const navItems = [
       //   name: "YouTube Channel Managment",
       //   path: "/services/youtube-channel-managment"
       // },
-
-
-    ]
+    ],
   },
   {
     id: 3,
@@ -100,17 +100,13 @@ const navItems = [
     id: 6,
     Name: "Blog",
     Route: "/blog",
-
-
   },
   {
     id: 7,
     Name: "Contact Us",
     Route: "/contact-us",
-
   },
 ];
-
 
 function Navbar({ bg_color, position }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -119,11 +115,21 @@ function Navbar({ bg_color, position }) {
   };
 
   return (
-    <div className={`w-full min-h-[3rem]  font-Inter font-semibold  fixed top-0 z-50 ${bg_color} bg-white`}>
+    <div
+      className={`w-full min-h-[3rem]  font-Inter font-semibold  fixed top-0 z-50 ${bg_color} bg-white`}
+    >
       <div className="mx-w-[1200px] mx-auto min-h-full flex items-center text-[balck] justify-between lg:justify-around  ">
         {/* Logo here... */}
         <div className="relative w-36 h-16 ">
-          <Link href={'/'} alt='home'> <Image src={"/Images/herosection/DP_logo.png"} alt="" fill className="object-contain" /></Link>
+          <Link href={"/"} alt="home">
+            {" "}
+            <Image
+              src={Logo}
+              alt=""
+              fill
+              className="object-contain"
+            />
+          </Link>
         </div>
 
         {/* nav items here......... */}
@@ -131,7 +137,9 @@ function Navbar({ bg_color, position }) {
           {navItems.map((item, index) => (
             <Link href={item.Route} key={index}>
               <div className="relative  main list-none flex justify-center items-center">
-                <div key={index} className="cursor-pointer">{item.Name}</div>
+                <div key={index} className="cursor-pointer">
+                  {item.Name}
+                </div>
                 {/* {(index === 1) && <IoMdArrowDropdown size={20} className="block" />} */}
                 {/* {item.hasDropdown && (
 
@@ -145,22 +153,20 @@ function Navbar({ bg_color, position }) {
             </Link>
           ))}
           <Link href={"/consultation"} className="text-xs">
-            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#0077cc] hover:bg-[#3b82f6] '>
+            <button className="flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#0077cc] hover:bg-[#3b82f6] ">
               <div className="flex justify-center items-center">
                 <p>Get Free Consultation</p>
               </div>
-
             </button>
           </Link>
         </div>
-
 
         {/* Hamburgur */}
         <div className="lg:hidden ">
           <div className="flex justify-center items-center">
             <div>
-              <Link href={"/consultation"}  >
-                <button className='text-sm font-medium  px-[12px] py-[10px]  rounded-xl text-white bg-[rgb(19,157,255)]'>
+              <Link href={"/consultation"}>
+                <button className="text-sm font-medium  px-[12px] py-[10px]  rounded-xl text-white bg-[rgb(19,157,255)]">
                   <p className="flex justify-center items-center gap-4">
                     Get Free Consultation
                   </p>
@@ -168,10 +174,12 @@ function Navbar({ bg_color, position }) {
               </Link>
             </div>
             <Hamburger
-              toggled={isOpen} toggle={setIsOpen} color='#001b47' size={28}>
-            </Hamburger>
+              toggled={isOpen}
+              toggle={setIsOpen}
+              color="#001b47"
+              size={28}
+            ></Hamburger>
           </div>
-
 
           <Drawer
             open={isOpen}
@@ -182,9 +190,14 @@ function Navbar({ bg_color, position }) {
             <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start bg-[#001b47]">
               {/* =========>top bar */}
               <div className="w-full flex justify-between items-center px-2 h-[100px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
-                <Link href={'/'} alt='home'>
+                <Link href={"/"} alt="home">
                   <div className="relative w-10 h-10 ">
-                    <Image src={"/Images/herosection/DP_logo.png"} alt="" fill className="object-contain" />
+                    <Image
+                      src={"/Images/herosection/DP_logo.png"}
+                      alt=""
+                      fill
+                      className="object-contain"
+                    />
                   </div>
                 </Link>
                 <RxCross2 onClick={toggleDrawer} size={30} />
@@ -192,8 +205,8 @@ function Navbar({ bg_color, position }) {
               {/* button for the order now in mobile view */}
 
               <div className="mx-auto">
-                <Link href={"/consultation"}  >
-                  <button className='text-base font-medium  px-8 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
+                <Link href={"/consultation"}>
+                  <button className="text-base font-medium  px-8 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]">
                     <p className="flex justify-center items-center gap-4">
                       Get Free Consultation
                     </p>
@@ -202,23 +215,30 @@ function Navbar({ bg_color, position }) {
               </div>
 
               {navItems.map((item, index) => (
-                <Link href={item.Route} key={index} >
+                <Link href={item.Route} key={index}>
                   <div className="w-full flex flex-col justify-center items-center px-4 py-1 ">
                     <div className="w-full  flex justify-start items-start ">
-                      <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
+                      <div
+                        key={index}
+                        className="cursor-pointer w-full flex justify-between items-center "
+                      >
                         <p>{item.Name}</p>
                         {/* {(index === 1) && <IoMdArrowDropdown size={30} className="ml-6"/>} */}
                       </div>
                     </div>
                     {/* =====> sub items */}
                     <div className="w-full py-0">
-                      {item.hasDropdown &&
+                      {item.hasDropdown && (
                         <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 mt-6 text-base font-normal ">
                           {item.dropdownItems.map((item, index) => {
-                            return <Link key={index} href={`${item.path}`}>{item.name}</Link>
+                            return (
+                              <Link key={index} href={`${item.path}`}>
+                                {item.name}
+                              </Link>
+                            );
                           })}
                         </div>
-                      }
+                      )}
                     </div>
                   </div>
                 </Link>
@@ -226,14 +246,9 @@ function Navbar({ bg_color, position }) {
             </div>
           </Drawer>
         </div>
-      </div >
-
-    </div >
-
-
+      </div>
+    </div>
   );
-
 }
 
-export default dynamic(() => Promise.resolve(Navbar), { ssr: false });
-
+export default Navbar;

@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../common/Navbar";
 import Image from "next/image";
+
+import heroImg from "../../public//Images/herosection/Landing_page_Image.png"
+import heroImage2 from "../../public//Images/herosection/heroImage2.svg"
 import { height } from "@mui/system";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillStarFill } from "react-icons/bs";
@@ -58,7 +61,7 @@ function Hero() {
         <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full   mb-8 xl:mb-12 max-w-[1200px]">
           <div className="relative h-[300px]   sm:h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5 mb-10">
             <Image
-              src="/Images/herosection/Landing_page_Image.png"
+              src={heroImg}
               fill
               alt="heroImage"
               className="object-contain"
@@ -71,7 +74,7 @@ function Hero() {
               </p>
               <div className="relative h-[100px] w-[250px] xl:-ml-24">
                 <Image
-                  src="/Images/herosection/heroImage2.svg"
+                  src={heroImage2}
                   fill
                   alt="heroImage2"
                   className="object-contain"
