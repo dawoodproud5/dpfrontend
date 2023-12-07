@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../common/Navbar";
 import Image from "next/image";
 
-import heroImg from "../../public//Images/herosection/Landing_page_Image.png"
-import heroImage2 from "../../public//Images/herosection/heroImage2.svg"
+import heroImg from "../../public//Images/herosection/Landing_page_Image.png";
+import heroImage2 from "../../public//Images/herosection/heroImage2.svg";
 import { height } from "@mui/system";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillStarFill } from "react-icons/bs";
@@ -12,6 +12,7 @@ import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
 import SignUp from "./SignUp";
 import { SessionProvider, useSession } from "next-auth/react";
+import { Suspense } from "react";
 function Hero() {
   return (
     <div className="w-full flex flex-col justify-center items-center font-Inter mx-auto bg-[#001b47]">
@@ -25,15 +26,17 @@ function Hero() {
           <div className="  w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
             {/* hero section text */}
             <div className=" flex flex-col justify-start items-start mx-auto px-5">
-              <div className="flex flex-col justify-start items-start  xl:-space-y-3 ">
-                <h1 className=" font-extrabold text-[36px] sm:text-[36px] md:text-[50px] lg:text-[62px] ">
-                  Dawood Proud
-                </h1>
-                <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#007aff]">
-                  {" "}
-                  Stand Out from Crowd
-                </h1>
-              </div>
+              <Suspense>
+                <div className="flex flex-col justify-start items-start  xl:-space-y-3 ">
+                  <h1 className=" font-extrabold text-[36px] sm:text-[36px] md:text-[50px] lg:text-[62px] ">
+                    Dawood Proud
+                  </h1>
+                  <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#007aff]">
+                    {" "}
+                    Stand Out from Crowd
+                  </h1>
+                </div>{" "}
+              </Suspense>
               <div className=" text-left font-medium md:font-semibold  sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[20px] text-[white]/80 ">
                 <p>
                   {" "}
