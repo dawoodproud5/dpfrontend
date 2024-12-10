@@ -22,13 +22,13 @@ function  ContactCard() {
           <div>
             <p>Email Us</p>
             <p className="text-[#139dff] font-normal">
-              support@dawoodproud.com
+              iqoxfordltd@gmail.com
             </p>
           </div>
           <div>
             <p>For Any Complaint, Email Us at</p>
             <p className="text-[#139dff] font-normal">
-              complaints@dawoodproud.com
+              imranqureshi.cu.pk@gmail.com
             </p>
           </div>
         </div>
