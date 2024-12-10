@@ -1,4 +1,4 @@
-import Image from "next/image";
+  import Image from "next/image";
 import { BsFillChatRightDotsFill } from "react-icons/bs";
 import React, { useEffect } from "react";
 
@@ -17,7 +17,7 @@ function  ContactCard() {
           <h2 className="text-2xl">Call Us</h2>
           <div>
             <p>Contact Our Support Team</p>
-            <p className="text-[#139dff] font-normal">+44 7308 510775</p>
+            <p className="text-[#139dff] font-normal">+44 7774264578</p>
           </div>
           <div>
             <p>Email Us</p>
